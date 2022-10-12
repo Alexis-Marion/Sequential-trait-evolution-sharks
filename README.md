@@ -80,8 +80,9 @@ The elbow method (Zambelli, 2016) computes a score for each cluster determined w
 <p align="justify"> Secondly, we plotted the speciation rates for each trait and the speciation difference between each trait. The first plot allows the user to visualize easily the range of speciation rate for each trait. Here, the grey group possesses the smallest speciation rate among all the clusters. Conversely, the yellow group possesses the largest diversification rate, almost 3 times more than the grey group. This plot is very qualitative, but cannot account for real statistical differences, therefore, there is a need to characterize quantitatively the difference between rates. The second plot accounts for such differences, as they are significant if the plot is not adjacent to 0 (represented by a red line). Here we can see two main groups, with respectively low and large speciation rates. </p>
 
 
-    ![Musse_Graph]("https://github.com/Alexis-Marion/Shark_Diversification/edit/main/Figure-MuSSE_git.jpg")
-
+<p align="center">
+    <img src="https://github.com/Alexis-Marion/Shark_Diversification/edit/main/Figure-MuSSE_git.jpg" width="220" height="240" />
+</p>
 
 ### 2.3 Ancestral state estimation
 
