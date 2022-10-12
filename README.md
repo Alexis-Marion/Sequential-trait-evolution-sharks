@@ -81,7 +81,7 @@ The elbow method (Zambelli, 2016) computes a score for each cluster determined w
 
 
 <p align="center">
-    <img src="https://github.com/Alexis-Marion/Shark_Diversification/edit/main/Figure-MuSSE_git.jpg" width="220" height="240" />
+    <img src="https://github.com/Alexis-Marion/Shark_Diversification/edit/main/Figure-MuSSE_git-1.png" width="220" height="240" />
 </p>
 
 ### 2.3 Ancestral state estimation
