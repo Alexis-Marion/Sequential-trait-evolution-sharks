@@ -4,7 +4,7 @@
 
 - [Summary](#Summary)
 - [Overview](#Overview)
-- [1 Merging trait data ](#1 Merging trait data )
+- [1 Creating trait-syndrome data](#1 Creating trait-syndrome data)
 	- [1.1 Discretization](#1.1 Discretization)
 	- [1.2 Hierarchal clustering](#1.2 Hierarchal clustering)
 		- [1.2.1 Choosing the best algorithm](#1.2.1 Choosing the best algorithm)
@@ -21,7 +21,7 @@
 
 <p align="justify"> This repository's purpose is to give a means of replicability to the article "A dense time-calibrated phylogeny of sharks provides insights into the role of traits on their deep-time diversification" but can be generalized to other similar data as the scripts are not specific. All of the presented scripts are written in R language (R Core Team, 2022). You will also gain access to rdata files and notebook. If you are planning to use any of these scripts, please cite "XXX". </p>
 
-[Go to Real Cool Heading section](#real-cool-heading)
+
 
 ## Overview
 
