@@ -2,8 +2,8 @@
 
 ## Summary 
 
-- [Summary](##Summary)
-- [Overview](##Overview)
+- [Summary](#Summary)
+- [Overview](#Overview)
 - [Paragraph](#paragraph)
 - [List](#list)
 	- [List CheckBox](#list-checkbox)
