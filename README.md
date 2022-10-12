@@ -4,8 +4,8 @@
 
 - [Summary](#Summary)
 - [Overview](#Overview)
-- [I Creating trait-syndrome data](#1-Creating-trait-syndrome-data)
-	- [1.1 Discretization](#1-1-Discretization)
+- [1 Creating trait-syndrome data](#1-Creating-trait-syndrome-data)
+	- [1.1 Discretization](#1.1-Discretization)
 	- [1.2 Hierarchal clustering](#1.2-Hierarchal-clustering)
 		- [1.2.1 Choosing the best algorithm](#1.2.1-Choosing-the-best-algorithm)
 		- [1.2.2 Post-analysis group determination](#1.2.2-Post-analysis-group-determination)
