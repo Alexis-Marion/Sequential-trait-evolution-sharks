@@ -18,10 +18,9 @@
 	- [3.2 Testing each trait alone](#32-Testing-each-trait-alone)
 		- [3.2.1 Testing a single multi-state trait](#321-Testing-a-single-multi-state-trait)
 		- [3.2.2 Testing multiple binary traits](#322-Testing-multiple-binary-traits)
+- [Reference](#Reference)
 
 <p align="justify"> This repository's purpose is to give a means of replicability to the article "A dense time-calibrated phylogeny of sharks provides insights into the role of traits on their deep-time diversification" but can be generalized to other similar data as the scripts are not specific. All of the presented scripts are written in R language (R Core Team, 2022). You will also gain access to rdata files and notebook. If you are planning to use any of these scripts, please cite "XXX". </p>
-
-
 
 ## Overview
 
@@ -120,10 +119,18 @@ The elbow method (Zambelli, 2016) computes a score for each cluster determined w
 
 ### Reference
 
+Beaulieu, J. M. Donoghue, M. J. 2013. Fruit evolution and diversification in campanulid angiosperms: Campanulid fruit evolution. Evolution. 67(11): 3132-3144.
+
+Herrera-Alsina, L. van Els, P. Etienne, R. S. 2019. Detecting the dependence of diversification on multiple traits from phylogenetic trees and trait data. Systematic Biology. 68(2): 317-328.
+
+Maddison, W.P., Midford, P.E. & Otto, S.P. (2007) Estimating a binary character's effect on speciation and extinction. Systematic Biology, 56, 701–710
+
+Menardi, G. 2011. Density-based Silhouette diagnostics for clustering methods. Statistics and Computing. 21(3): 295-308.
+
+Mérigot, B. Durbec, J. P. Gaertner, J. C. 2010. On goodness-of-fit measure for dendrogram-based analyses. Ecology. 91(6): 1850-1859.
+
 R Core Team (2022). R: A language and environment for statistical
 computing. R Foundation for Statistical Computing, Vienna, Austria.
 URL https://www.R-project.org/.
 
-
-
-Maddison, W.P., Midford, P.E. & Otto, S.P. (2007) Estimating a binary character's effect on speciation and extinction. Systematic Biology, 56, 701–710
+Zambelli, A. E. 2016. A data-driven approach to estimating the number of clusters in hierarchical clustering. F1000Research 5: 2809.
