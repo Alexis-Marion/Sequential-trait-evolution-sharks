@@ -10,14 +10,14 @@
 		- [1.2.1 Choosing the best algorithm](#121-Choosing-the-best-algorithm)
 		- [1.2.2 Post-analysis group determination](#122-Post-analysis-group-determination)
 - [2 Diversification analysis](#2-Diversification-analysis)
-	- [2.1 Selecting the likeliest model](#2.1-Selecting-the-likeliest-model)
-	- [2.2 Bayesian analysis](#2.2-Bayesian-analysis)
-	- [2.3 Ancestral state estimation](#2.3-Ancestral-state-estimation)
+	- [2.1 Selecting the likeliest model](#21-Selecting-the-likeliest-model)
+	- [2.2 Bayesian analysis](#22-Bayesian-analysis)
+	- [2.3 Ancestral state estimation](#23-Ancestral-state-estimation)
 - [3 Robustness analysis](#3-Robustness-analysis)
-	- [3.1 Permutation analysis](#3.1-Permutation-analysis)
-	- [3.2 Testing each trait alone](#3.2-Testing-each-trait-alone)
-		- [3.2.1 Testing a single multi-state trait](#3.2.1-Testing-a-single-multi-state-trait)
-		- [3.2.2 Testing multiple binary traits](#3.2.2-Testing-multiple-binary-traits)
+	- [3.1 Permutation analysis](#31-Permutation-analysis)
+	- [3.2 Testing each trait alone](#32-Testing-each-trait-alone)
+		- [3.2.1 Testing a single multi-state trait](#321-Testing-a-single-multi-state-trait)
+		- [3.2.2 Testing multiple binary traits](#322-Testing-multiple-binary-traits)
 
 <p align="justify"> This repository's purpose is to give a means of replicability to the article "A dense time-calibrated phylogeny of sharks provides insights into the role of traits on their deep-time diversification" but can be generalized to other similar data as the scripts are not specific. All of the presented scripts are written in R language (R Core Team, 2022). You will also gain access to rdata files and notebook. If you are planning to use any of these scripts, please cite "XXX". </p>
 
