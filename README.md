@@ -20,7 +20,7 @@
 
 `used script (Multitrait_analysis)`
 
-<p align="justify"> As explained earlier, today's models are not able to account for multiple traits, as such, testing their effect on diversification may need a workaround. To do so and using statistical tools, we have created composite data summarizing all traits presented in the article with the first dedicated script called: "Multitrait_analysis.r".  The following script and explanation are inspired by the Towardsdatascience blog post: "Hierarchical Clustering on Categorical Data in R", written by Anastasia Reusova. </p>
+<p align="justify"> As explained earlier, today's models are not able to account for multiple traits, as such, testing their effect on diversification may need a workaround. To do so and using statistical tools, we have created composite data summarizing all traits presented in the article with the first dedicated script called: "Multitrait_analysis.r".  The following script and explanation are inspired by the excellent [Towardsdatascience blog post](https://towardsdatascience.com/hierarchical-clustering-on-categorical-data-in-r-a27e578f2995): "Hierarchical Clustering on Categorical Data in R", written by Anastasia Reusova. </p>
 
 ### 1.1 Discretization
 
