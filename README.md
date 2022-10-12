@@ -112,9 +112,9 @@ The elbow method (Zambelli, 2016) computes a score for each cluster determined w
 
 #### 3.2.2 Testing multiple binary traits
 
-*package requirement* (diversitree, qpcR, optional(stringr))
+`package requirement (diversitree, qpcR, optional(stringr))`
 
-*used script* (Multi_State_MUSSE)
+`used script (Multi_State_MUSSE)`
 
 <p align="justify"> As the habitat is hardly discriminable, the most efficient way to account for it was to subdivide it into several binary traits, with one state being the presence of a species in a certain habitat, and the other its absence. Because of its nature, such traits could not be analyzed with the previous method. As such, we used the function musse.multitrait presented in the package diversitree. Using the same dataset as before and with multitrait_binary_analysis.r script, you will be able to conduct this analysis.  </p>
 
