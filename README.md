@@ -4,24 +4,20 @@
 
 - [Summary](#Summary)
 - [Overview](#Overview)
-- [Paragraph](#paragraph)
-- [List](#list)
-	- [List CheckBox](#list-checkbox)
-- [Link](#link)
-	- [Anchor links](#anchor-links)
-- [Blockquote](#blockquote)
-- [Image | GIF](#image--gif)
-- [Style Text](#style-text)
-	- [Italic](#italic)
-	- [Bold](#bold)
-	- [Strikethrough](#strikethrough)
-- [Code](#code)
-- [Email](#email)
-- [Table](#table)
-	- [Table Align](#table-align)
-    	- [Align Center](#align-center)
-    	- [Align Left](#align-left)
-    	- [Align Right](#align-right)
+- [1 Merging trait data ](#1: Merging trait data )
+	- [1.1 Discretization](#1.1 Discretization)
+	- [1.2 Hierarchal clustering](#1.2 Hierarchal clustering)
+		- [1.2.1 Choosing the best algorithm](#1.2.1 Choosing the best algorithm)
+		- [1.2.2 Post-analysis group determination](#1.2.2 Post-analysis group determination)
+- [2 Diversification analysis](#2: Diversification analysis)
+	- [2.1 Selecting the likeliest model](#2.1 Selecting the likeliest model)
+	- [2.1 2.2 Bayesian analysis](#2.1 2.2 Bayesian analysis)
+	- [2.1 2.2 Ancestral state estimation](#2.1 2.2 Ancestral state estimation)
+- [3 Robustness analysis](#3 Robustness analysis)
+	- [3.1 Permutation analysis](#3.1 Permutation analysis)
+	- [3.2 Testing each trait alone](#3.2 Testing each trait alone)
+		- [3.2.1 Testing a single multi-state trait](#3.2.1 Testing a single multi-state trait)
+		- [3.2.2 Testing multiple binary traits](#3.2.2 Testing multiple binary traits)
 
 <p align="justify"> This repository's purpose is to give a means of replicability to the article "A dense time-calibrated phylogeny of sharks provides insights into the role of traits on their deep-time diversification" but can be generalized to other similar data as the scripts are not specific. All of the presented scripts are written in R language (R Core Team, 2022). You will also gain access to rdata files and notebook. If you are planning to use any of these scripts, please cite "XXX". </p>
 
@@ -39,7 +35,7 @@
 
 <p align="justify"> Example data used for our article are available at "figshare.com".</p>
 
-## 1: Merging trait data 
+## 1 Creating trait-syndrome data
 
 `package requirement (mclust, Rtsne, ggplot2, reshape2, dplyr, dendextend, cluster, fpc)`
 
@@ -66,7 +62,7 @@ The following script and explanation are inspired by the excellent  ["Hierarchic
 <p align="justify"> Now that we possess the best algorithm for our dataset, we should find the best number of groups. We present two complementary methods to asses which is the optimal number of groups for our dataset.
 The elbow method (Zambelli, 2016) computes a score for each cluster determined with the algorithm, the higher the difference between successive clusters the better. As such, the user will probably select the optimal number of clusters when he sees a break in the curve. Similarly, the silhouette method (Menardi, 2011) is a measure of how similar a data point is within-cluster compared to other clusters. Here the higher the curve, the better. Most of the time the two methods will come to similar if not identical results. Again, the composition of each group should be carefully examined, as they should represent any biological reality. For our dataset, the best number of groups is five. </p>
 
-## 2: Diversification analysis
+## 2 Diversification analysis
 
 `package requirement (diversitree, qpcR, ggtree, ggplot2, ggpmisc, optional(stringr))`
 
@@ -88,11 +84,11 @@ The elbow method (Zambelli, 2016) computes a score for each cluster determined w
 
 <p align="justify"> The last step of this analysis is to compute the ancestral state for the phylogeny. Using bayesian data generated in part 2.2, we estimated each category's ancestral state with the help of the asr.marginal function. Computing A.S.E for each node of the phylogeny results in a probability table. Since the table is large, we decided to plot it directly in the phylogeny. Several ways to represent probability for each node in a phylogeny are available, we chose pie charts, as they are readable. </p>
 
-## 3: Robustness analysis 
+## 3 Robustness analysis 
 
 <p align="justify"> SSE models are sensitive to several mathematical biases (such as rejection of the null hypothesis). To minimize such biases we carried out two additional analysis. </p>
 
-### 3.1: Permutation analysis
+### 3.1 Permutation analysis
 
 `package requirement ()`
 
@@ -100,7 +96,7 @@ The elbow method (Zambelli, 2016) computes a score for each cluster determined w
 
 <p align="justify"> As a first way to examine for overestimating the rejection of the Null hypothesis, we performed a permutation analysis on the same dataset as previously mentioned.  </p>
 
-### 3.2: Testing each trait alone
+### 3.2 Testing each trait alone
 
 <p align="justify"> Since we tested three traits at once, we wanted to measure the effect of each trait on diversification to account for their impact. Here we provide two ways to deal with individual trait data. </p>
 
