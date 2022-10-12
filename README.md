@@ -79,6 +79,10 @@ The elbow method (Zambelli, 2016) computes a score for each cluster determined w
 
 <p align="justify"> Secondly, we plotted the speciation rates for each trait and the speciation difference between each trait. The first plot allows the user to visualize easily the range of speciation rate for each trait. Here, the grey group possesses the smallest speciation rate among all the clusters. Conversely, the yellow group possesses the largest diversification rate, almost 3 times more than the grey group. This plot is very qualitative, but cannot account for real statistical differences, therefore, there is a need to characterize quantitatively the difference between rates. The second plot accounts for such differences, as they are significant if the plot is not adjacent to 0 (represented by a red line). Here we can see two main groups, with respectively low and large speciation rates. </p>
 
+<p align="center">
+    <img width="200" src="https://github.com/Alexis-Marion/Shark_Diversification/edit/main/Figure-MuSSE_git.pdf" alt="Musse diversification">
+</p>
+
 ### 2.3 Ancestral state estimation
 
 <p align="justify"> The last step of this analysis is to compute the ancestral state for the phylogeny. Using bayesian data generated in part 2.2, we estimated each category's ancestral state with the help of the asr.marginal function. Computing A.S.E for each node of the phylogeny results in a probability table. Since the table is large, we decided to plot it directly in the phylogeny. Several ways to represent probability for each node in a phylogeny are available, we chose pie charts, as they are readable. </p>
