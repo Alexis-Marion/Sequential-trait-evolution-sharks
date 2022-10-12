@@ -1,6 +1,31 @@
  # A dense time-calibrated phylogeny of sharks provides insights into the role of traits on their deep-time diversification : repository 
 
-<p align="justify"> This repository's purpose is to give a means of replicability to the article "A dense time-calibrated phylogeny of sharks provides insights into the role of traits on their deep-time diversification" but can be generalized to other similar data as the scripts are not specific. All of the presented scripts are written in R language (source). You will also gain access to rdata files and notebook. If you are planning to use any of these scripts, please cite "XXX". </p>
+## Summary 
+
+- [Summary](##Summary)
+- [Overview](##Overview)
+- [Paragraph](#paragraph)
+- [List](#list)
+	- [List CheckBox](#list-checkbox)
+- [Link](#link)
+	- [Anchor links](#anchor-links)
+- [Blockquote](#blockquote)
+- [Image | GIF](#image--gif)
+- [Style Text](#style-text)
+	- [Italic](#italic)
+	- [Bold](#bold)
+	- [Strikethrough](#strikethrough)
+- [Code](#code)
+- [Email](#email)
+- [Table](#table)
+	- [Table Align](#table-align)
+    	- [Align Center](#align-center)
+    	- [Align Left](#align-left)
+    	- [Align Right](#align-right)
+
+<p align="justify"> This repository's purpose is to give a means of replicability to the article "A dense time-calibrated phylogeny of sharks provides insights into the role of traits on their deep-time diversification" but can be generalized to other similar data as the scripts are not specific. All of the presented scripts are written in R language (R Core Team, 2022). You will also gain access to rdata files and notebook. If you are planning to use any of these scripts, please cite "XXX". </p>
+
+[Go to Real Cool Heading section](#real-cool-heading)
 
 ## Overview
 
@@ -20,11 +45,13 @@
 
 `used script (Multitrait_analysis)`
 
-<p align="justify"> As explained earlier, today's models are not able to account for multiple traits, as such, testing their effect on diversification may need a workaround. To do so and using statistical tools, we have created composite data summarizing all traits presented in the article with the first dedicated script called: "Multitrait_analysis.r".  The following script and explanation are inspired by the excellent [Towardsdatascience blog post](https://towardsdatascience.com/hierarchical-clustering-on-categorical-data-in-r-a27e578f2995): "Hierarchical Clustering on Categorical Data in R", written by Anastasia Reusova. </p>
+<p align="justify"> As explained earlier, today's models are not able to account for multiple traits, as such, testing their effect on diversification may need a workaround. To do so and using statistical tools, we have created composite data summarizing all traits presented in the article with the first dedicated script called: "Multitrait_analysis.r".</p>
+
+The following script and explanation are inspired by the excellent  ["Hierarchical Clustering on Categorical Data in R"](https://towardsdatascience.com/hierarchical-clustering-on-categorical-data-in-r-a27e578f2995), written by Anastasia Reusova.
 
 ### 1.1 Discretization
 
-<p align="justify"> The first, and optional, step is to discretize continuous data. If you are using traits, you will probably handle continuous data, as such, you need to discretize them. In this script, we use a Gaussian mixture model with the mclust function of the mclust package. This package selects automatically the most likely number of groups. </p>
+<p align="justify"> The first, and optional, step is to discretize continuous data. If you are using traits, you will probably handle continuous data, as such, you need to discretize them. In this script, we use a Gaussian mixture model with the mclust function of the mclust package. This package selects automatically the most likely number of groups. </p> 
 
 ### 1.2 Hierarchal clustering
 
@@ -32,7 +59,7 @@
 
 #### 1.2.1 Choosing the best algorithm
 
-<p align="justify"> Distance based-clustering, as the phenetic method in phylogeny, uses several different reconstruction algorithms. Here we tried to choose the best algorithm based on two different criteria: the 2-norm criteria (sources) and the least-square criteria (sources). For these two criteria, the lower the better. The script allows the user to calculate these metrics, and here the best method is the UPGMA </p>
+<p align="justify"> Distance based-clustering, as the phenetic method in phylogeny, uses several different reconstruction algorithms. Here we tried to choose the best algorithm based on two different criteria: the 2-norm criterion (Mérigot et al., 2010) and the least-square criterion. For these two criteria, the lower the better. The script allows the user to calculate these metrics, and here the best method is the UPGMA </p>
 
 #### 1.2.2 Post-analysis group determination 
 
@@ -45,7 +72,7 @@ The elbow method (Zambelli, 2016) computes a score for each cluster determined w
 
 `used script (Diversity_analysis.r)`
 
-<p align="justify"> The models used for trait-dependant diversification are known as "SSE" and originated from the original BISSE model (source). These are complex models using both trait data and branch length from a calibrated tree to correlate trait and diversification. Here we used the MUSSE model which was more fitted for our analysis. The second script is known as "Diversity_analysis.r" and allows the user to conduct a diversification analysis and ancestral state estimation for a multi-state trait under MUSSE. </p>
+<p align="justify"> The models used for trait-dependant diversification are known as "SSE" and originated from the original BISSE model (Maddison et al., 2007). These are complex models using both trait data and branch length from a calibrated tree to correlate trait and diversification. Here we used the MUSSE model which was more fitted for our analysis. The second script is known as "Diversity_analysis.r" and allows the user to conduct a diversification analysis and ancestral state estimation for a multi-state trait under MUSSE. </p>
 
 ### 2.1 Selecting the likeliest model
 
@@ -83,7 +110,7 @@ The elbow method (Zambelli, 2016) computes a score for each cluster determined w
 
 `used script (SecSSE_Reproduction, SecSSE_Body-size)`
 
-<p align="justify"> Accounting for trait effect is subject to numerous methodological biases (sources). Indeed, SSE models can falsely indicate an effect of the focal trait on diversification. Models with hidden traits, such as SECSSE (sources) or HISSE can account for hidden variables in trait-dependant diversification. Here we use SECSSE to detect : 
+<p align="justify"> Accounting for trait effect is subject to numerous methodological biases (Beaulieu and Donoghue, 2013). Indeed, SSE models can falsely indicate an effect of the focal trait on diversification. Models with hidden traits, such as SECSSE (Herrera-Alsina et al., 2019) or HISSE (Beaulieu and O'Meara, 2016) can account for hidden variables in trait-dependant diversification. Here we use SECSSE to detect : 
 1 - an effect of the trait on diversification, 
 2 - the possible existence of other hidden variables in our dataset (the other variable of the trait-syndrome variable). </p>
 
@@ -96,3 +123,11 @@ The elbow method (Zambelli, 2016) computes a score for each cluster determined w
 <p align="justify"> As the habitat is hardly discriminable, the most efficient way to account for it was to subdivide it into several binary traits, with one state being the presence of a species in a certain habitat, and the other its absence. Because of its nature, such traits could not be analyzed with the previous method. As such, we used the function musse.multitrait presented in the package diversitree. Using the same dataset as before and with multitrait_binary_analysis.r script, you will be able to conduct this analysis.  </p>
 
 ### Reference
+
+R Core Team (2022). R: A language and environment for statistical
+computing. R Foundation for Statistical Computing, Vienna, Austria.
+URL https://www.R-project.org/.
+
+
+
+Maddison, W.P., Midford, P.E. & Otto, S.P. (2007) Estimating a binary character's effect on speciation and extinction. Systematic Biology, 56, 701–710
