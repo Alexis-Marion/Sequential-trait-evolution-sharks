@@ -38,7 +38,7 @@
 
 `package requirement (mclust, Rtsne, ggplot2, reshape2, dplyr, dendextend, cluster, fpc)`
 
-`used script (Multitrait_analysis)`
+`used script (Multitrait_analysis.r)`
 
 <p align="justify"> As explained earlier, today's models are not able to account for multiple traits, as such, testing their effect on diversification may need a workaround. To do so and using statistical tools, we have created composite data summarizing all traits presented in the article with the first dedicated script called: "Multitrait_analysis.r".</p>
 
@@ -108,7 +108,7 @@ The elbow method (Zambelli, 2016) computes a score for each cluster determined w
 
 `package requirement (secsse, qpcR, optional(stringr))`
 
-`used script (SecSSE_Reproduction, SecSSE_Body-size)`
+`used script (SecSSE_Reproduction.r, SecSSE_Body-size.r)`
 
 <p align="justify"> Accounting for trait effect is subject to numerous methodological biases (Beaulieu and Donoghue, 2013). Indeed, SSE models can falsely indicate an effect of the focal trait on diversification. Models with hidden traits, such as SECSSE (Herrera-Alsina et al., 2019) or HISSE (Beaulieu and O'Meara, 2016) can account for hidden variables in trait-dependant diversification. Here we use SECSSE to detect : 
 1 - an effect of the trait on diversification, 
@@ -118,7 +118,7 @@ The elbow method (Zambelli, 2016) computes a score for each cluster determined w
 
 `package requirement (diversitree, qpcR, optional(stringr))`
 
-`used script (Multi_State_MUSSE)`
+`used script (Multi_State_MUSSE.r)`
 
 <p align="justify"> As the habitat is hardly discriminable, the most efficient way to account for it was to subdivide it into several binary traits, with one state being the presence of a species in a certain habitat, and the other its absence. Because of its nature, such traits could not be analyzed with the previous method. As such, we used the function musse.multitrait presented in the package diversitree. Using the same dataset as before and with multitrait_binary_analysis.r script, you will be able to conduct this analysis.  </p>
 
@@ -138,4 +138,4 @@ R Core Team (2022). R: A language and environment for statistical
 computing. R Foundation for Statistical Computing, Vienna, Austria.
 URL https://www.R-project.org/.
 
-Zambelli, A. E. 2016. A data-driven approach to estimating the number of clusters in hierarchical clustering. F1000Research 5: 2809.
+Zambelli, A. E. 2016. A data-driven approach to estimating the number of clusters in hierarchical clustering. F1000 Research 5: 2809.
