@@ -91,13 +91,13 @@ The elbow method (Zambelli, 2016) computes a score for each cluster determined w
 
 
 <p align="center">
-    <img src="Figure-MuSSE_git-1.png" \>
+    <img src="Figure-MuSSE_git.png" \>
 </p>
 
 <p align="justify"> The second plot accounts for such differences, as they are significant if the plot is not adjacent to 0 (represented by a red line). Here we can see two main groups, with respectively low and large speciation rates. </p>
 
 <p align="center">
-    <img src="Differences-MuSSE-speciation-rates-MCMC-git.pdf" \>
+    <img src="Differences-MuSSE-speciation-rates-MCMC-git.png" \>
 </p>
 
 ### 2.3 Ancestral state estimation
