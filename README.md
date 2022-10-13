@@ -59,7 +59,17 @@ The following script and explanation are inspired by the excellent  ["Hierarchic
 #### 1.2.2 Post-analysis group determination 
 
 <p align="justify"> Now that we possess the best algorithm for our dataset, we should find the best number of groups. We present two complementary methods to asses which is the optimal number of groups for our dataset.
-The elbow method (Zambelli, 2016) computes a score for each cluster determined with the algorithm, the higher the difference between successive clusters the better. As such, the user will probably select the optimal number of clusters when he sees a break in the curve. Similarly, the silhouette method (Menardi, 2011) is a measure of how similar a data point is within-cluster compared to other clusters. Here the higher the curve, the better. Most of the time the two methods will come to similar if not identical results. Again, the composition of each group should be carefully examined, as they should represent any biological reality. For our dataset, the best number of groups is five. </p>
+The elbow method (Zambelli, 2016) computes a score for each cluster determined with the algorithm, the higher the difference between successive clusters the better. As such, the user will probably select the optimal number of clusters when he sees a break in the curve. </p>
+
+<p align="center">
+    <img src="Elbow_method.png" \>
+</p>
+
+<p align="justify"> Similarly, the silhouette method (Menardi, 2011) is a measure of how similar a data point is within-cluster compared to other clusters. Here the higher the curve, the better. Most of the time the two methods will come to similar if not identical results. Again, the composition of each group should be carefully examined, as they should represent any biological reality. For our dataset, the best number of groups is five. </p>
+
+<p align="center">
+    <img src="Silhouette_method.png" \>
+</p>
 
 ## 2 Diversification analysis
 
@@ -77,11 +87,17 @@ The elbow method (Zambelli, 2016) computes a score for each cluster determined w
 
 <p align="justify"> The second step consists in running the best maximum likelihood model into a bayesian framework. To do so we need to reference priors, as they are mandatory for bayesian analysis. We decided to make an exponential prior, and a run of 1000 generations with 10 % burn-in. To see if convergence was achieved, we visualized the likelihood plot minus the burn-in period. Since the likelihood seems to have stabilized shortly after the burn-in, we decided to consider that this run has converged. </p>
 
-<p align="justify"> Secondly, we plotted the speciation rates for each trait and the speciation difference between each trait. The first plot allows the user to visualize easily the range of speciation rate for each trait. Here, the grey group possesses the smallest speciation rate among all the clusters. Conversely, the yellow group possesses the largest diversification rate, almost 3 times more than the grey group. This plot is very qualitative, but cannot account for real statistical differences, therefore, there is a need to characterize quantitatively the difference between rates. The second plot accounts for such differences, as they are significant if the plot is not adjacent to 0 (represented by a red line). Here we can see two main groups, with respectively low and large speciation rates. </p>
+<p align="justify"> Secondly, we plotted the speciation rates for each trait and the speciation difference between each trait. The first plot allows the user to visualize easily the range of speciation rate for each trait. Here, the grey group possesses the smallest speciation rate among all the clusters. Conversely, the yellow group possesses the largest diversification rate, almost 3 times more than the grey group. This plot is very qualitative, but cannot account for real statistical differences, therefore, there is a need to characterize quantitatively the difference between rates.</p>
 
 
 <p align="center">
     <img src="Figure-MuSSE_git-1.png" \>
+</p>
+
+<p align="justify"> The second plot accounts for such differences, as they are significant if the plot is not adjacent to 0 (represented by a red line). Here we can see two main groups, with respectively low and large speciation rates. </p>
+
+<p align="center">
+    <img src="Differences-MuSSE-speciation-rates-MCMC-git.pdf" \>
 </p>
 
 ### 2.3 Ancestral state estimation
