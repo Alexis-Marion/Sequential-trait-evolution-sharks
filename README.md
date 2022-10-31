@@ -13,11 +13,9 @@
 	- [2.1 Selecting the likeliest model](#21-Selecting-the-likeliest-model)
 	- [2.2 Bayesian analysis](#22-Bayesian-analysis)
 	- [2.3 Ancestral state estimation](#23-Ancestral-state-estimation)
-- [3 Robustness analysis](#3-Robustness-analysis)
-	- [3.1 Permutation analysis](#31-Permutation-analysis)
-	- [3.2 Testing each trait alone](#32-Testing-each-trait-alone)
-		- [3.2.1 Testing a single multi-state trait](#321-Testing-a-single-multi-state-trait)
-		- [3.2.2 Testing multiple binary traits](#322-Testing-multiple-binary-traits)
+- [3 Sensitivity analysis](#3-Sensitivity-analysis)
+	- [3.1 Testing a single multi-state trait](#31-Testing-a-single-multi-state-trait)
+	- [3.2 Testing multiple binary traits](#32-Testing-multiple-binary-traits)
 - [Reference](#Reference)
 
 <p align="justify"> This repository's purpose is to give a means of replicability to the article "A dense time-calibrated phylogeny of sharks provides insights into the role of traits on their deep-time diversification" but can be generalized to other similar data as the scripts are not specific. All of the presented scripts are written in R language (R Core Team, 2022). You will also gain access to rdata files and notebook. If you are planning to use any of these scripts, please cite "XXX". </p>
@@ -104,23 +102,11 @@ The elbow method (Zambelli, 2016) computes a score for each cluster determined w
 
 <p align="justify"> The last step of this analysis is to compute the ancestral state for the phylogeny. Using bayesian data generated in part 2.2, we estimated each category's ancestral state with the help of the asr.marginal function. Computing A.S.E for each node of the phylogeny results in a probability table. Since the table is large, we decided to plot it directly in the phylogeny. Several ways to represent probability for each node in a phylogeny are available, we chose pie charts, as they are readable. </p>
 
-## 3 Robustness analysis 
+## 3 Sensitivity analysis 
 
 <p align="justify"> SSE models are sensitive to several mathematical biases (such as rejection of the null hypothesis). To minimize such biases we carried out two additional analysis. </p>
 
-### 3.1 Permutation analysis
-
-`package requirement ()`
-
-`used script (permutation.r)`
-
-<p align="justify"> As a first way to examine for overestimating the rejection of the Null hypothesis, we performed a permutation analysis on the same dataset as previously mentioned.  </p>
-
-### 3.2 Testing each trait alone
-
-<p align="justify"> Since we tested three traits at once, we wanted to measure the effect of each trait on diversification to account for their impact. Here we provide two ways to deal with individual trait data. </p>
-
-#### 3.2.1 Testing a single multi-state trait
+#### 3.1 Testing a single multi-state trait
 
 `package requirement (secsse, qpcR, optional(stringr))`
 
@@ -130,7 +116,7 @@ The elbow method (Zambelli, 2016) computes a score for each cluster determined w
 1 - an effect of the trait on diversification, 
 2 - the possible existence of other hidden variables in our dataset (the other variable of the trait-syndrome variable). </p>
 
-#### 3.2.2 Testing multiple binary traits
+#### 3.2 Testing multiple binary traits
 
 `package requirement (diversitree, qpcR, optional(stringr))`
 
