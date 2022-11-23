@@ -14,11 +14,11 @@ library("fpc")
 
 # Data loading
 
-df1<-read.csv("Path/to/your/file.tsv", sep ="\t") # omit sep ="\t" for .csv files
+df1<-read.csv("Path/to/your/input.file", sep ="\t") # omit sep ="\t" for .csv files
 
 # Clustering continous data
 
-mb1 = Mclust(as.numeric(df1$"Your_variable"))
+mb1 = Mclust(as.numeric(df1$Consensus))
 summary(mb1, parameters = TRUE)
 
 plot(mb1, what=c("classification")) # plot the discretization
@@ -34,8 +34,9 @@ df1<-(as.data.frame(unclass(df1),stringsAsFactors=TRUE))
 df1$"Your_variable"<-as.factor(df1$"Your_variable")
 
 rownames(df1)<-df1[,1]
-df1<-df1[,-1]
+df1<-df1[,-c(1)]
 df1.1<-df1
+df1<-df1[,-c(1)]
 
 # Dissimilarity matrix creation
 
@@ -52,29 +53,31 @@ aggl.clust.w <- hclust(gower.dist, method = "ward.D2")
 
 sigma <- var(gower.dist)+var(cophenetic(aggl.clust.c))
 thres <- 2*sqrt(nrow(as.matrix(gower.dist))*sigma)
-sign<-(thres > max(abs(eigen(gower.dist-cophenetic(aggl.clust.c))$values)))
-col.c<-c("Complete", thres, sign, sum((eigen(gower.dist-cophenetic(aggl.clust.c))$values)**2))
+sign<-(thres > max(abs(svd(gower.dist-cophenetic(aggl.clust.c))$d)))
+col.c<-c("Complete", thres, sign, sum((gower.dist-cophenetic(aggl.clust.c))**2))
 
 # UPGMA
 
 sigma <- var(gower.dist)+var(cophenetic(aggl.clust.m))
 thres <- 2*sqrt(nrow(as.matrix(gower.dist))*sigma)
-sign<-(thres > max(abs(eigen(gower.dist-cophenetic(aggl.clust.m))$values)))
-col.m<-c("UPGMA", thres, sign, sum((eigen(gower.dist-cophenetic(aggl.clust.m))$values)**2))
+sign<-(thres > max(abs(svd(gower.dist-cophenetic(aggl.clust.m))$d)))
+col.m<-c("UPGMA", thres, sign, sum((gower.dist-cophenetic(aggl.clust.m))**2))
+
+max(abs(svd(gower.dist-cophenetic(aggl.clust.m))$d))
 
 # Ward
 
 sigma <- var(gower.dist)+var(cophenetic(aggl.clust.w))
 thres <- 2*sqrt(nrow(as.matrix(gower.dist))*sigma)
-sign<-(thres > max(abs(eigen(gower.dist-cophenetic(aggl.clust.w))$values)))
-col.w<-c("Ward", thres, sign, sum((eigen(gower.dist-cophenetic(aggl.clust.w))$values)**2))
+sign<-(thres > max(abs(svd(gower.dist-cophenetic(aggl.clust.w))$d)))
+col.w<-c("Ward", thres, sign, sum((gower.dist-cophenetic(aggl.clust.w))**2))
 
 # Divisive
 
 sigma <- var(gower.dist)+var(cophenetic(divisive.clust))
 thres <- 2*sqrt(nrow(as.matrix(gower.dist))*sigma)
-sign<-(thres > max(abs(eigen(gower.dist-cophenetic(divisive.clust))$values)))
-col.div<-c("Divisive", thres, sign, sum((eigen(gower.dist-cophenetic(divisive.clust))$values)**2))
+sign<-(thres > max(abs(svd(gower.dist-cophenetic(divisive.clust))$d)))
+col.div<-c("Divisive", thres, sign, sum((gower.dist-cophenetic(divisive.clust))**2))
 
 # Comparaison of algorithm dataframe
 
@@ -172,6 +175,8 @@ summary(df[df[,length(df[1,])]== 4,])
 summary(df[df[,length(df[1,])]== 5,])
 
 rownames(df)<-rownames(df1.1)
+
+
 
 # Saving data
 write.table(df, "Path/to/your/exit.file", sep ="\t")
