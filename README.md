@@ -15,7 +15,7 @@
 	- [2.1 Selecting the likeliest model](#21-Selecting-the-likeliest-model)
 	- [2.2 Bayesian analysis](#22-Bayesian-analysis)
 	- [2.3 Ancestral state estimation](#23-Ancestral-state-estimation)
-- [3 Sensitivity analysis](#3-Sensitivity-analysis)
+- [3 Sensitivity analyses](#3-Sensitivity-analyses)
 	- [3.1 Revisiting MuSSE analysis](#31-Revisiting-MuSSE-analysis)
 	- [3.2 Testing a single multi-state trait](#32-Testing-a-single-multi-state-trait)
 	- [3.3 Testing multiple binary traits](#33-Testing-multiple-binary-traits)
@@ -31,7 +31,7 @@
 
 **2**: Run the actual diversification analysis
 
-**3**: Conducting robustness analysis
+**3**: Conducting sensitivity analysis
 
 <p align="justify"> Example data used for our article are available at "figshare.com".</p>
 
@@ -53,7 +53,7 @@ The following script and explanation are inspired by the excellent  ["Hierarchic
 
 #### 1.1.2 Multiple correspondence analysis
 
-<p align="justify"> Multiple correspondence analysis (MCA) is a multivariate data analysis designed for nominal categorical data. We used MCA here to obtain a first look on our data, and measure qualitatively the association between traits. For example, we can see here that on the first and second axis a large maximum body size, a oceanic habitat and oophageous mode of reproduction are highly associated. Hence, it is expected that a group presenting such association will be detected in further analysis. </p> 
+<p align="justify"> Multiple correspondence analysis (MCA) is a multivariate data analysis designed for nominal categorical data. We used MCA here to obtain a first look on our data, and measure qualitatively the association between traits. For example, we can see here that on the first and second axis a large maximum body size, a oceanic habitat and oophageous mode of reproduction are highly associated. Hence, it is expected that a group presenting such association will be detected in further analyses. </p> 
 
 <p align="center">
     <img src="MCA_method.png" \>
@@ -96,7 +96,7 @@ The elbow method (Zambelli, 2016) computes a score for each cluster determined w
 
 ### 2.2 Bayesian analysis
 
-<p align="justify"> The second step consists in running the best maximum likelihood model into a bayesian framework. To do so, we need to reference priors, as they are mandatory for bayesian analysis. We decided to make an exponential prior, and a run of 10000 generations with 10 % burn-in. To see if convergence was achieved, we visualized the likelihood plot minus the burn-in period. Since the likelihood seems to have stabilized shortly after the burn-in, we considered that this run has converged. </p>
+<p align="justify"> The second step consists in running the best maximum likelihood model into a bayesian framework. To do so, we need to reference priors, as they are mandatory for bayesian analyses. We decided to make an exponential prior, and a run of 10000 generations with 10 % burn-in. To see if convergence was achieved, we visualized the likelihood plot minus the burn-in period. Since the likelihood seems to have stabilized shortly after the burn-in, we considered that this run has converged. </p>
 
 <p align="justify"> Secondly, we plotted the net diversification rates for each pair of trait and the pairwise net diversification rate difference between each trait. The first plot allows the user to visualize easily the range of net diversification rate for each trait. This plot is very qualitative and cannot account for real statistical differences, and hence, it is needed to characterize quantitatively the difference between rates.</p>
 
@@ -115,9 +115,9 @@ The elbow method (Zambelli, 2016) computes a score for each cluster determined w
 
 <p align="justify"> The last step of this analysis is to compute ancestral states considering the phylogeny. Using bayesian data generated in part 2.2, we estimated each category's ancestral state with the help of the asr.marginal function. Computing A.S.E for each node of the phylogeny results in a probability table. Since the table is large, we decided to plot it directly over the phylogeny. Several ways to represent probability for each node in a phylogeny are available, we chose pie charts, as they are readable. </p>
 
-## 3 Sensitivity analysis 
+## 3 Sensitivity analyses 
 
-<p align="justify"> SSE models are sensitive to several mathematical biases (such as rejection of the null hypothesis). We carried out two additional analysis, to minimize such biases. </p>
+<p align="justify"> SSE models are sensitive to several mathematical biases (such as rejection of the null hypothesis). We carried out two additional analyses, to minimize such biases. </p>
 
 #### 3.1 Revisiting MuSSE analysis
 
