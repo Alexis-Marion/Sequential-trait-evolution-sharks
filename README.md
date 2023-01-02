@@ -126,8 +126,11 @@ The elbow method (Zambelli, 2016) computes a score for each cluster determined w
 `used script (SecSSE_full.r)`
 
 Accounting for trait effect is subject to numerous methodological biases (Beaulieu and Donoghue, 2013). Indeed, SSE models can falsely indicate an effect of the focal trait on diversification. Models with hidden traits, such as SeCSSE (Herrera-Alsina et al., 2019) or HiSSE (Beaulieu and O'Meara, 2016) can account for hidden variables in trait-dependant diversification. Here we use SeCSSE to detect : 
+
 1 - an effect of the trait on diversification, 
+
 2 - the possible existence of other hidden variables in our dataset (other variables than the trait-association variable).
+
 3 - the coexistence of focal and hidden variables in our dataset (trait-association and hidden variables). 
 Following Herrera-Alsina et al. (2019) and most importantly Liedtke et al. (2022), we revisited our MuSSE original results. The present script, as well as the "SecSSE_Reproduction.r" and "SecSSE_Body-size.r" scripts are adapted from Liedtke et al. (2022). As such, if you you want to reuse these scripts, please cite the original authors beforehand.
 
