@@ -86,7 +86,7 @@ The elbow method (Zambelli, 2016) computes a score for each cluster determined w
 
 `package requirement (diversitree, qpcR, ggtree, ggplot2, ggpmisc, optional(stringr))`
 
-`used script (Diversity_analysis.r)`
+`used script (Diversity_analysis_all.r)`
 
 <p align="justify"> The models used for trait-dependant diversification are known as "SSE" and originated from the original BiSSE model (Maddison et al., 2007). These are complex models using both trait data and branch length from a calibrated tree to correlate trait and diversification. Here we used the MuSSE model which was more fitted for our analysis. The second script is known as "Diversity_analysis.r" and allows the user to conduct a diversification analysis and ancestral state estimation for a multi-state trait under MUSSE. </p>
 
@@ -123,7 +123,7 @@ The elbow method (Zambelli, 2016) computes a score for each cluster determined w
 
 `package requirement (ape, secsse, DDD, tidyverse, parallel, qgraph, optional(stringr))`
 
-`used script (SecSSE_full.r)`
+`used script (SecSSE_Full.r)`
 
 Accounting for trait effect is subject to numerous methodological biases (Beaulieu and Donoghue, 2013). Indeed, SSE models can falsely indicate an effect of the focal trait on diversification. Models with hidden traits, such as SeCSSE (Herrera-Alsina et al., 2019) or HiSSE (Beaulieu and O'Meara, 2016) can account for hidden variables in trait-dependant diversification. Here we use SeCSSE to detect : 
 
