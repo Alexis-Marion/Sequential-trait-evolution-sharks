@@ -133,7 +133,7 @@ Accounting for trait effect is subject to numerous methodological biases (Beauli
 
 3 - the coexistence of focal and hidden variables in our dataset (trait-association and hidden variables). 
 
-Following Herrera-Alsina et al. (2019) and most importantly Liedtke et al. (2022), we revisited our MuSSE original results. The present script, as well as the "SecSSE_Reproduction.r" and "SecSSE_Body-size.r" scripts are adapted from Liedtke et al. (2022). As such, if you you want to reuse these scripts, please cite the original authors beforehand.
+Following Herrera-Alsina et al. (2019) and most importantly Liedtke et al. (2022), we revisited our MuSSE original results. The present script, as well as the "SecSSE_Reproduction.r" and "SecSSE_Body-size.r" scripts are adapted from Liedtke et al. (2022). As such, if you you want to reuse these scripts, please cite the original authors beforehand. Morevoer, some scripts from Liedtke et al. (2022) are required to run the analysis (aux_scripts).
 
 #### 3.2 Testing a single multi-state trait
 
