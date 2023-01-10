@@ -102,7 +102,7 @@ The elbow method (Zambelli, 2016) computes a score for each cluster determined w
 
 
 <p align="center">
-    <img src="Figure-MuSSE_git.png" \>
+    <img src="Figure_MuSSE_git.png" \>
 </p>
 
 <p align="justify"> The second plot accounts for such differences, as they are significant if the plot does not overlap 0 (represented by a red line). Here we can see two main groups, with respectively low and high net diversification rates. </p>
