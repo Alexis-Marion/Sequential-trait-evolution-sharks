@@ -36,25 +36,29 @@
 
 `package requirement (mclust, geiger, stringr)`
 
-`used script (Pagel's-Lambda.r)`
+`used script (Pagel's_Lambda.r)`
 
-<p align="justify"> Today's models are not able to account for multiple traits and hence, testing for their effect on diversification may need a workaround. To do so and using statistical tools, we have created composite data summarizing all traits presented in the article with the first dedicated script called: "Multitrait_analysis.r".</p>
+<p align="justify"> One of the most simple comparative analyses. Pagel's lambda is a metric whose purpose is to account for phylogenetic signals for a trait, namely testing whether traits are phylogenetically structured across the tree of life. This can be considered as a preliminary test when accounting for phylogenetic conservatism</p>
 
 ### 1.1 Prerequisite
 
-<p align="justify"> The first, and optional, step is to discretize continuous data. If you are using traits, you will probably handle continuous data, and as such, you need to discretize them. In this script, we use a Gaussian mixture model with the mclust function of the mclust package. This package selects automatically the most likely number of groups. </p> 
+<p align="justify"> The first step in any comparative analysis is to clean the data. Here, we want to test whether maximum body size is phylogenetically conserved across the phylogeny. To do so, we need to extract such values and isolate them in a vector. However maximum body size is a continuous data, thus we may need to discretize it. In this script, we use a Gaussian mixture model with the mclust function of the mclust package to cluster continuous data. This package selects automatically the most likely number of groups. Then,  we name each trait value according to its species name </p> 
 
-#### 1.1.2 Multiple correspondence analysis
+### 1.2 Creating the white noise and Lambda differ models
 
-<p align="justify"> Multiple correspondence analysis (MCA) is a multivariate data analysis designed for nominal categorical data. We used MCA here to obtain a first look on our data, and measure qualitatively the association between traits. For example, we can see here that on the first and second axis a large maximum body size, a oceanic habitat and oophageous mode of reproduction are highly associated. Hence, it is expected that a group presenting such association will be detected in further analyses. </p> 
+<p align="justify"> The second step is to perform a test for phylogenetic signals using Pagel's lambda. To perform this test, we will first indicate which transition structure we want for our model. Here, we rely on the most exhaustive framework: all rates differ (ARD), which allow all possible transition. Secondly, we build two models, one with no phylogenetic signal (White noise) and one including phylogenetic signals (Lambda model). We then compare the relative fit of each model with AICC. </p> 
+
+### 1.3 Making simulation
+
+<p align="justify"> We also performed simulations using randomized datasets to test the significance of the Lambda value. The results is then plotted, with the barplot representing 1000 randomized replicates, and the redline the empirical Lambda value. </p> 
 
 <p align="center">
-    <img src="MCA_method.png" \>
+    <img src="Lambda_bds.png" \>
 </p>
 
 ## 2 Modeling trait evolution
 
-`package requirement (diversitree, qpcR, ggtree, ggplot2, ggpmisc, optional(stringr))`
+`package requirement (corHMM, mclust, string, phytools, qpcR, ggtree, secsse)`
 
 `used script (Diversity_analysis_all.r)`
 
