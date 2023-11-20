@@ -1,16 +1,13 @@
- # Phylogenetic conservatism and complex pattern of trait evolution in sharks : repository 
+ # Phylogenetic conservatism and complex pattern of trait evolution in sharks: repository 
 
 ## Summary 
 
 - [Summary](#Summary)
 - [Overview](#Overview)
-- [1 Creating trait-association data](#1-Creating-trait-association-data)
+- [1 Testing for phylogenetic signal](#1-Testing-for-phylogenetic-signal)
 	- [1.1 Prerequisite](#11-Prerequisite)
-		- [1.1.1 Discretization](#111-Discretization)
-		- [1.1.2 Multiple correspondence analysis](#112-Multiple-correspondence-analysis)
-	- [1.2 Hierarchal clustering](#12-Hierarchal-clustering)
-		- [1.2.1 Choosing the best algorithm](#121-Choosing-the-best-algorithm)
-		- [1.2.2 Post-analysis group determination](#122-Post-analysis-group-determination)
+	- [1.2 Discretization](#111-Discretization)
+   	- [1.3 Discretization](#111-Discretization)
 - [2 Diversification analysis](#2-Diversification-analysis)
 	- [2.1 Selecting the likeliest model](#21-Selecting-the-likeliest-model)
 	- [2.2 Bayesian analysis](#22-Bayesian-analysis)
@@ -21,33 +18,29 @@
 	- [3.3 Testing multiple binary traits](#33-Testing-multiple-binary-traits)
 - [Reference](#Reference)
 
-<p align="justify"> This repository's purpose is to give a means of replicability to the article "A dense time-calibrated phylogeny of sharks provides insights into the role of traits on their deep-time diversification" but can be generalized to other similar data as the scripts are not specific. All of the presented scripts are written in R language (R Core Team, 2022). If you are planning to use any of these scripts, please cite "Marion et al., 2024". </p>
+<p align="justify"> This repository's purpose is to give a means of replicability to the article "Phylogenetic conservatism and complex pattern of trait evolution in sharks" but can be generalized to other similar data as the scripts are not specific. All of the presented scripts are written in R language (R Core Team, 2022). If you are planning to use any of these scripts, please cite "Marion et al., 2024". </p>
 
 ## Overview
 
-<p align="justify"> To analyze the role of traits in shark diversification, we had to conduct several trait-related diversification models. Those models can be cumbersome and can account mostly for only a multi-state trait: testing several traits at once can be impossible. As such, post-phylogeny analysis for diversification purposes is divided into three steps :
+<p align="justify"> This repository contains scripts and markdown for performing the following comparative analyses:
 
-**1**: Merging trait data into a single trait-association dataset
+**1**: Testing for phylogenetic signal
 
-**2**: Run the actual diversification analysis
+**2**: Modeling trait evolution
 
-**3**: Conducting sensitivity analysis
+**3**: Conducting diversification analyses
 
 <p align="justify"> Example data used for our article are available at "figshare.com".</p>
 
-## 1 Creating trait-association data
+## 1 Testing for phylogenetic signal
 
-`package requirement (mclust, Rtsne, ggplot2, reshape2, dplyr, dendextend, cluster, fpc, FactoMineR, factoextra )`
+`package requirement (mclust, geiger, stringr)`
 
-`used script (Multitrait_analysis.r)`
+`used script (Pagel's-Lambda.r)`
 
 <p align="justify"> Today's models are not able to account for multiple traits and hence, testing for their effect on diversification may need a workaround. To do so and using statistical tools, we have created composite data summarizing all traits presented in the article with the first dedicated script called: "Multitrait_analysis.r".</p>
 
-The following script and explanation are inspired by the excellent  ["Hierarchical Clustering on Categorical Data in R"](https://towardsdatascience.com/hierarchical-clustering-on-categorical-data-in-r-a27e578f2995), written by Anastasia Reusova.
-
 ### 1.1 Prerequisite
-
-#### 1.1.1 Discretization
 
 <p align="justify"> The first, and optional, step is to discretize continuous data. If you are using traits, you will probably handle continuous data, and as such, you need to discretize them. In this script, we use a Gaussian mixture model with the mclust function of the mclust package. This package selects automatically the most likely number of groups. </p> 
 
@@ -59,30 +52,7 @@ The following script and explanation are inspired by the excellent  ["Hierarchic
     <img src="MCA_method.png" \>
 </p>
 
-### 1.2 Hierarchal clustering
-
-<p align="justify"> Multivariate and clustering analyses can be quite complicated, especially for mixed and discrete data. Only a few options are available and here we choose to explore one of them: hierarchal clustering using Gower's distance. Gower's distance is appropriate for this kind of data and can be used through hierarchal clustering afterward. The problem is that altough, hierarchal clustering can create groups, the user may not know which number of groups is optimal. To avoid this and be as rigorous as possible, we shall select the best distance-based clustering algorithm and determine the optimal groups through different criteria. </p>
-
-#### 1.2.1 Choosing the best algorithm
-
-<p align="justify"> Distance based-clustering, as the phenetic method in phylogeny, uses several different reconstruction algorithms. Here we tried to choose the best algorithm based on two different criteria: the 2-norm criterion (Mérigot et al., 2010) and the least-square criterion. For these two criteria, the lower the better. The script allows the user to calculate these metrics, and here the best method is the UPGMA </p>
-
-#### 1.2.2 Post-analysis group determination 
-
-<p align="justify"> Now that we possess the best algorithm for our dataset, we should find the best number of groups. We present two complementary methods to assess which number of groups is optimal considering the dataset.
-The elbow method (Zambelli, 2016) computes a score for each cluster determined with the algorithm, the higher the difference between successive clusters the better. As such, the user will probably select the optimal number of clusters when he sees a break in the curve. </p>
-
-<p align="center">
-    <img src="Elbow_method.png" \>
-</p>
-
-<p align="justify"> Similarly, the silhouette method (Menardi, 2011) is a measure of how similar a data point is within a cluster compared to other clusters. Here the higher the curve, the better. Most of the time the two methods will come to similar, if not identical, results. Again, the composition of each group should be carefully examined, as they should account for biological reality. For our dataset, the best number of groups is five. </p>
-
-<p align="center">
-    <img src="Silhouette_method.png" \>
-</p>
-
-## 2 Diversification analysis
+## 2 Modeling trait evolution
 
 `package requirement (diversitree, qpcR, ggtree, ggplot2, ggpmisc, optional(stringr))`
 
