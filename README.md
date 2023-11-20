@@ -62,7 +62,7 @@
 
 `used script (corHMM_Trait.r)`
 
-<p align="justify"> The second script . The purpose of this analysis is twofold. First, we want to test how traits evolved and what evolutionary scenario they followed. Second, by already estimating transition rates here, we, avoid over-parametrization issues when performing trait-dependent diversification analyses (see below). </p>
+<p align="justify"> The second script . The purpose of this analysis is twofold. First, we want to test how traits evolved and what evolutionary scenario they followed. Second, by already estimating transition rates here, we may be able to put more structure when performing trait-dependent diversification analyses (see below) and thus avoid over-parametrization issues. </p>
 
 ### 2.1 Custom matrix
 
