@@ -6,8 +6,8 @@
 - [Overview](#Overview)
 - [1 Testing for phylogenetic signal](#1-Testing-for-phylogenetic-signal)
 	- [1.1 Prerequisite](#11-Prerequisite)
-	- [1.2 Discretization](#111-Discretization)
-   	- [1.3 Discretization](#111-Discretization)
+	- [1.2 Creating the white noise and Lambda models](#12-Creating-the-white-noise-and-Lambda-models)
+   	- [1.3 Making simulation](#13-Making-simulation)
 - [2 Diversification analysis](#2-Diversification-analysis)
 	- [2.1 Selecting the likeliest model](#21-Selecting-the-likeliest-model)
 	- [2.2 Bayesian analysis](#22-Bayesian-analysis)
@@ -44,7 +44,7 @@
 
 <p align="justify"> The first step in any comparative analysis is to clean the data. Here, we want to test whether maximum body size is phylogenetically conserved across the phylogeny. To do so, we need to extract such values and isolate them in a vector. However maximum body size is a continuous data, thus we may need to discretize it. In this script, we use a Gaussian mixture model with the mclust function of the mclust package to cluster continuous data. This package selects automatically the most likely number of groups. Then,  we name each trait value according to its species name </p> 
 
-### 1.2 Creating the white noise and Lambda differ models
+### 1.2 Creating the white noise and Lambda models
 
 <p align="justify"> The second step is to perform a test for phylogenetic signals using Pagel's lambda. To perform this test, we will first indicate which transition structure we want for our model. Here, we rely on the most exhaustive framework: all rates differ (ARD), which allow all possible transition. Secondly, we build two models, one with no phylogenetic signal (White noise) and one including phylogenetic signals (Lambda model). We then compare the relative fit of each model with AICC. </p> 
 
