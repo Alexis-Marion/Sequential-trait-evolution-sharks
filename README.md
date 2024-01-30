@@ -56,7 +56,7 @@ We then automatically save the output from the best-fitting model for each trait
 ### 1.3 Ancestral state estimation
 
 <p align="justify"> Lastly, one may be interested in estimating the ancestral condition for his clade of interest. Fortunately, corHMM jointly estimates transition rates and ancestral states, thus it is pretty easy to 
-	However, ancestral state estimations are and remain **estimations**, thus one should always interpret them with utmost care. </p> 
+	However, ancestral state estimations are and remain **estimations** , thus one should always interpret them with utmost care. </p> 
 
 <p align="center">
     <img src="ASE_BDS.png" \>
