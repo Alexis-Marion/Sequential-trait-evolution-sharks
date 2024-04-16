@@ -1,4 +1,4 @@
- # Tempo and mode of trait evolution across the shark Tree of Life: repository 
+ # Sequential trait evolution did not drive deep-time diversification in sharks
 
 ## Summary 
 
