@@ -1,0 +1,546 @@
+Super_Order	Order	Family	Species	Body-size	Reproduction	Habitat	Sources Body-size	Sources reproduction	Sources Habitat
+Squalomorphii	Squaliformes	Etmopteridae	Aculeola nigra	67	YV	D	Ebert 2016 & Ebert & Dando & Fowler 2021	Ebert 2016	Acuña & Villarroel 2010
+Galeomorphii	Carcharhiniformes	Atelomycteridae	Akheilos suwartanai	54	NA	NA	White & Fahmi & Weigmann 2019	NA	NA
+Galeomorphii	Lamniformes	Alopiidae	Alopias pelagicus	428	Oo	O	Ebert & Dando & Fowler 2021	Otake & Mizue 1981, Ebert & Dando & Fowler 2021	Smith et al. 2008
+Galeomorphii	Lamniformes	Alopiidae	Alopias superciliosus	484	Oo	O	Ebert & Dando & Fowler 2021	Chen et al. 1997	Smith et al. 2008 & Ceccarelli et al. 2014
+Galeomorphii	Lamniformes	Alopiidae	Alopias vulpinus	573	Oo	O	Ebert & Dando & Fowler 2021	Moreno & Parajua & Moron 1989	Smith et al. 2008
+Galeomorphii	Carcharhiniformes	Pentanchidae	Apristurus albisoma	60	NA	D	Nakaya & Séret 1999	NA	Nakaya & Séret 1999
+Galeomorphii	Carcharhiniformes	Pentanchidae	Apristurus ampliceps	86	O	D	Sasahara & Sato & Nakaya 2008	Dutilloy 2018	Sasahara & Sato & Nakaya 2008
+Galeomorphii	Carcharhiniformes	Pentanchidae	Apristurus aphyodes	60	O	D	Nakaya & Stehman 1998	Iglésias et al. 2002	Nakaya & Stehman 1998
+Galeomorphii	Carcharhiniformes	Pentanchidae	Apristurus australis	62	O	D	Sato & Nakaya & Yorozu, 2008	Sato & Nakaya & Yorozu, 2008	Sato & Nakaya & Yorozu, 2008 & Ceccarelli et al. 2014
+Galeomorphii	Carcharhiniformes	Pentanchidae	Apristurus breviventralis	49	NA	D	Kawauchi et al. 2014	NA	Kawauchi et al. 2014
+Galeomorphii	Carcharhiniformes	Pentanchidae	Apristurus brunneus	69	O	D	Ebert & Dando & Fowler 2021	Flammang et al. 2007	Cross 1998 & Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Pentanchidae	Apristurus bucephalus	68	NA	D	White & Last & Pogonoski 2008	NA	White & Last & Pogonoski 2008
+Galeomorphii	Carcharhiniformes	Pentanchidae	Apristurus canutus	46	NA	D	Springer 1979	NA	Springer 1979
+Galeomorphii	Carcharhiniformes	Pentanchidae	Apristurus exsanguis	91	O	D	Sato et al. 1999	Sato et al. 1999	Sato et al. 1999
+Galeomorphii	Carcharhiniformes	Pentanchidae	Apristurus fedorovi	68	NA	D	Nakaya & Sato 1997	NA	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Pentanchidae	Apristurus garricki	74	O	D	Sato & Stewart & Nakaya 2013	Sato & Stewart & Nakaya 2013	Sato & Stewart & Nakaya 2013
+Galeomorphii	Carcharhiniformes	Pentanchidae	Apristurus gibbosus	49	O	D	Nakaya & Kawauchi 2013	Nakaya & Kawauchi 2013	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Pentanchidae	Apristurus herklotsi	52	O	D	Nakaya & Kawauchi 2013	Nakaya & Kawauchi 2013	Nakaya & Kawauchi 2013
+Galeomorphii	Carcharhiniformes	Pentanchidae	Apristurus indicus	34	NA	D	Compagno 1984	NA	Compagno 1984
+Galeomorphii	Carcharhiniformes	Pentanchidae	Apristurus investigatoris	26	NA	D	Compagno 1984	NA	Compagno 1984
+Galeomorphii	Carcharhiniformes	Pentanchidae	Apristurus japonicus	71	NA	D	Nakaya 1975	Nakaya 1975	Nakaya 1975
+Galeomorphii	Carcharhiniformes	Pentanchidae	Apristurus kampae	65	O	D	Ebert & Dando & Fowler 2021	Flammang et al. 2007	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Pentanchidae	Apristurus laurussonii	72	O	D	Nakaya & Sato 1998	Nakaya & Sato 1998	Kiraly et al. 2003
+Galeomorphii	Carcharhiniformes	Pentanchidae	Apristurus longicephalus	60	O	D	Nakaya & Kawauchi 2013	Flammang et al. 2007	Nakaya & Kawauchi 2013 & Ceccarelli et al. 2014
+Galeomorphii	Carcharhiniformes	Pentanchidae	Apristurus macrorhynchus	66	O	D	Compagno 1984	Nakaya 1975	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Pentanchidae	Apristurus macrostomus	57	O	D	Nakaya & Kawauchi 2013	Nakaya & Kawauchi 2013	Nakaya & Kawauchi 2013
+Galeomorphii	Carcharhiniformes	Pentanchidae	Apristurus manis	88	O	D	Springer 1979	Flammang et al. 2007	Kiraly et al. 2003
+Galeomorphii	Carcharhiniformes	Pentanchidae	Apristurus manocheriani	56	NA	D	Cordova & Ebert 2021	NA	Cordova & Ebert 2021
+Galeomorphii	Carcharhiniformes	Pentanchidae	Apristurus melanoasper	76	O	D	Iglésias et al. 2004	Iglésias et al. 2004	Iglésias et al. 2004
+Galeomorphii	Carcharhiniformes	Pentanchidae	Apristurus microps	73	O	D	Nakaya & Sato 1997	Ebert & Compagno & Cowley 2006	Kiraly et al. 2003
+Galeomorphii	Carcharhiniformes	Pentanchidae	Apristurus micropterygeus	37	NA	D	Chu & Meng & Li 1986	NA	Chu & Meng & Li 1986
+Galeomorphii	Carcharhiniformes	Pentanchidae	Apristurus nakayai	68	NA	D	Iglésias 2012	NA	Iglésias 2012
+Galeomorphii	Carcharhiniformes	Pentanchidae	Apristurus nasutus	84	NA	D	Espínola-Novelo & Escribano & Oliva 2018	NA	Springer 1979
+Galeomorphii	Carcharhiniformes	Pentanchidae	Apristurus ovicorrugatus	47	O	D	White et al. 2023	White et al. 2023	White et al. 2023
+Galeomorphii	Carcharhiniformes	Pentanchidae	Apristurus parvipinnis	59	NA	D	Gomes & Signori & Gadig 2006	NA	Kiraly et al. 2003
+Galeomorphii	Carcharhiniformes	Pentanchidae	Apristurus pinguis	84	O	D	Crec'Hriou et al. 2015	Kawauchi et al. 2008	Kawauchi et al. 2008
+Galeomorphii	Carcharhiniformes	Pentanchidae	Apristurus platyrhynchus	80	O	D	Nakaya & Kawauchi 2013	Nakaya & Sato 2000	Kawauchi et al. 2008 & Ceccarelli et al. 2014
+Galeomorphii	Carcharhiniformes	Pentanchidae	Apristurus profundorum	76	NA	D	Ebert & Dando & Fowler 2021	NA	Kiraly et al. 2003
+Galeomorphii	Carcharhiniformes	Pentanchidae	Apristurus riveri	48	O	D	Kiraly et al. 2003	Flammang et al. 2007	Kiraly et al. 2003
+Galeomorphii	Carcharhiniformes	Pentanchidae	Apristurus saldanha	89	O	D	Ebert & Cowley & Compagno 1996	Ebert & Compagno & Cowley 2006	Ebert & Cowley & Compagno 1996
+Galeomorphii	Carcharhiniformes	Pentanchidae	Apristurus sibogae	21	NA	D	Nakaya 1989	NA	Nakaya 1989
+Galeomorphii	Carcharhiniformes	Pentanchidae	Apristurus sinensis	76	O	D	Iglésias 2012	Iglésias 2012	Chu & Hu, 1981 & Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Pentanchidae	Apristurus spongiceps	51	O	D	Nakaya & Sato 1997	Flammang et al. 2007	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Pentanchidae	Apristurus stenseni	23	NA	D	Springer 1979	NA	Springer 1979
+Galeomorphii	Carcharhiniformes	Pentanchidae	Apristurus yangi	44	O	D	White & Mana & Naylor 2017	White & Mana & Naylor 2017	White & Mana & Naylor 2017
+Galeomorphii	Carcharhiniformes	Pentanchidae	Asymbolus analis	90	O	D	Kuiter 1993	Bustamante & Kyne & Bennett 2013	Kuiter 1993
+Galeomorphii	Carcharhiniformes	Pentanchidae	Asymbolus funebris	44	NA	D	Compagno & Stevens & Last, 1999	NA	Compagno & Stevens & Last, 1999
+Galeomorphii	Carcharhiniformes	Pentanchidae	Asymbolus galacticus	48	NA	D	Séret & Last, 2008b	NA	Séret & Last, 2008b
+Galeomorphii	Carcharhiniformes	Pentanchidae	Asymbolus occiduus	60	NA	D	Last & Gomon & Gledhill 1999	NA	Last & Gomon & Gledhill 1999
+Galeomorphii	Carcharhiniformes	Pentanchidae	Asymbolus pallidus	47	NA	D	Last & Gomon & Gledhill 1999	NA	Last & Gomon & Gledhill 1999 & Ceccarelli et al. 2014
+Galeomorphii	Carcharhiniformes	Pentanchidae	Asymbolus parvus	36	NA	OS	Compagno & Stevens & Last, 1999	NA	Compagno & Stevens & Last, 1999
+Galeomorphii	Carcharhiniformes	Pentanchidae	Asymbolus rubiginosus	53	O	OS	Last & Gomon & Gledhill 1999	Bustamante & Kyne & Bennett 2013	Last & Gomon & Gledhill 1999
+Galeomorphii	Carcharhiniformes	Pentanchidae	Asymbolus submaculatus	44	NA	D	Compagno & Stevens & Last, 1999	NA	Compagno & Stevens & Last, 1999
+Galeomorphii	Carcharhiniformes	Pentanchidae	Asymbolus vincenti	61	O	OS	Ebert & Dando & Fowler 2021	Hale 1935	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Atelomycteridae	Atelomycterus baliensis	47	O	R	White & Last & Dharmadi 2005	O'Neil & Avila & White 2020	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Atelomycteridae	Atelomycterus erdmanni	51	NA	R	Fahmi & White (2015)	NA	Fahmi & White (2015)
+Galeomorphii	Carcharhiniformes	Atelomycteridae	Atelomycterus fasciatus	42	O	IS	Compagno & Stevens 1993b	O'Neil & Avila & White 2020	Compagno & Stevens 1993b
+Galeomorphii	Carcharhiniformes	Atelomycteridae	Atelomycterus macleayi	60	O	IS	Ebert & Dando & Fowler 2021	O'Neil & Avila & White 2020	Springer 1979 & Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Atelomycteridae	Atelomycterus marmoratus	70	O	R	Ebert & Dando & Fowler 2021	O'Neil & Avila & White 2020	Springer 1979 & Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Atelomycteridae	Atelomycterus marnkalha	48	NA	IS	Jacobsen & Bennett 2007	NA	Jacobsen & Bennett 2007 & Ceccarelli et al. 2014
+Galeomorphii	Carcharhiniformes	Atelomycteridae	Aulohalaelurus kanakorum	79	NA	R	Séret 1990	NA	Séret 1990
+Galeomorphii	Carcharhiniformes	Atelomycteridae	Aulohalaelurus labiosus	67	NA	R	Springer 1979	NA	Lisney & White 2015.
+Galeomorphii	Orectolobiformes	Brachaeluridae	Brachaelurus colcloughi	85	YV	R	Kyne et al. 2011	Kyne et al. 2011	Kyne et al. 2011
+Galeomorphii	Orectolobiformes	Brachaeluridae	Brachaelurus waddi	122	YV	R	Ebert & Dando & Fowler 2021	Foged & Powter 2015	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Pentanchidae	Bythaelurus bachi	45	O	D	Weigman et al. 2016	Weigman et al. 2016	Weigman et al. 2016
+Galeomorphii	Carcharhiniformes	Pentanchidae	Bythaelurus canescens	124	O	D	Ebert & Dando & Fowler 2021	Concha et al. 2010	Acuña & Villarroel 2010
+Galeomorphii	Carcharhiniformes	Pentanchidae	Bythaelurus clevai	39	YV	D	Seret 1987	Seret 1987	Seret 1987
+Galeomorphii	Carcharhiniformes	Pentanchidae	Bythaelurus dawsoni	42	O	D	Ebert & Dando & Fowler 2021	Francis 2006	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Pentanchidae	Bythaelurus giddingsi	45	NA	D	McCosker & Long & Baldwin 2012	NA	McCosker & Long & Baldwin 2012
+Galeomorphii	Carcharhiniformes	Pentanchidae	Bythaelurus hispidus	37	YV	D	Akhilesh et al 2013	Akhilesh et al 2013	Akhilesh et al 2013
+Galeomorphii	Carcharhiniformes	Pentanchidae	Bythaelurus immaculatus	76	NA	D	Chu et al. 1982	NA	Chu et al. 1982
+Galeomorphii	Carcharhiniformes	Pentanchidae	Bythaelurus incanus	45	NA	D	Last & Stevens 2008	NA	Last & Stevens 2008
+Galeomorphii	Carcharhiniformes	Pentanchidae	Bythaelurus lutarius	39	YV	D	Springer 1979	Springer 1979	Springer 1979
+Galeomorphii	Carcharhiniformes	Pentanchidae	Bythaelurus naylori	55	O	D	Ebert & Clerkin 2015	Ebert & Clerkin 2015	Ebert & Clerkin 2015
+Galeomorphii	Carcharhiniformes	Pentanchidae	Bythaelurus stewarti	44	YV	D	Weigmann & Kaschner & Thiel 2018	Weigmann & Kaschner & Thiel 2018	Weigmann & Kaschner & Thiel 2018
+Galeomorphii	Carcharhiniformes	Pentanchidae	Bythaelurus tenuicephalus	29	NA	D	Kaschner & Weigmann & Thiel 2015	NA	Kaschner & Weigmann & Thiel 2015
+Galeomorphii	Carcharhiniformes	Pentanchidae	Bythaelurus vivaldii	30	NA	D	Weigmann & Kaschner 2017	NA	Weigmann & Kaschner 2017
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Carcharhinus acronotus	160	PV	IS	Ebert & Dando & Fowler 2021	Driggers et al. 2004	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Carcharhinus albimarginatus	300	PV	OS	Randall & Allen & Steene 1990	Yoshida 2017	Bond et al. 2015
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Carcharhinus altimus	300	PV	OS	Randall & Allen & Steene 1990	Crow & Lowe & Wetherbee 1996	Compagno & Krupp & Schneider 1995 & Ceccarelli et al. 2014
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Carcharhinus amblyrhynchoides	167	PV	IS	Stevens and McLoughlin 1991	Stevens and McLoughlin 1991	Stevens and McLoughlin 1991 & & Ceccarelli et al. 2014 
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Carcharhinus amblyrhynchos	265	PV	R	Ebert & Dando & Fowler 2021	Stevens and McLoughlin 1991	Heupel & Lédée & Simpfendorfer 2018
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Carcharhinus amboinensis	280	PV	IS	Heupel et al. 2019	Stevens and McLoughlin 1991	Heupel et al. 2019 & Ceccarelli et al. 2014
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Carcharhinus borneensis	65	PV	IS	White & Last & Lim 2010	White & Last & Lim 2010	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Carcharhinus brachyurus	325	PV	IS	Ebert & Dando & Fowler 2021	Chiaramonte 1996	Ebert & Dando & Fowler 2021 & Huveneers 2020
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Carcharhinus brevipinna	304	PV	IS	Joung et al. 2005	Capapé & Hemida & Seck & Diatta & Diatta & Zaouali, 2003	Ebert & Dando & Fowler 2021 & Ceccarelli et al. 2014
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Carcharhinus cautus	150	PV	IS	Ebert & Dando & Fowler 2021	Lyle 1987	Lyle 1987 & Ceccarelli et al. 2014
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Carcharhinus coatesi	88	PV	IS	White 2012	White 2012	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Carcharhinus dussumieri	121	PV	IS	Raesi et al. 2017	Teshima & Mizue 1972	Ceccarelli et al. 2014
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Carcharhinus falciformis	371	PV	O	Ebert & Dando & Fowler 2021	Gilbert & Schlernitzauer 1966	Ceccarelli et al. 2014 & Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Carcharhinus fitzroyensis	135	PV	IS	Lyle 1987	Lyle 1987	Heupel et al. 2019 & Ceccarelli et al. 2014
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Carcharhinus galapagensis	370	NA	IS	Ebert & Dando & Fowler 2021	NA	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Carcharhinus hemiodon	102	NA	IS	Ebert & Dando & Fowler 2021	NA	De Silva 2014
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Carcharhinus humani	84	NA	IS	White & Weigmann 2014	NA	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Carcharhinus isodon	200	PV	IS	Ebert & Dando & Fowler 2021	Castro 1993	Castro 1993
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Carcharhinus leiodon	165	PV	IS	Moore et al. 2013	Moore et al. 2013	Moore et al. 2013
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Carcharhinus leucas	400	PV	IS	McCord & Lamberth 2009	Branstetter & Stiles 1987	Ceccarelli et al. 2014 & Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Carcharhinus limbatus	286	PV	IS	Ebert & Dando & Fowler 2021	Crow & Lowe & Wetherbee 1996 & Castro 1996	Ceccarelli et al. 2014 & Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Carcharhinus longimanus	395	PV	O	Ebert & Dando & Fowler 2021	Tambourgi et al. 2013	Bonfil & Clarke & Nakano 2008 & Ceccarelli et al. 2014
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Carcharhinus macloti	110	PV	IS	Stevens & McLoughlin 1991	Stevens & McLoughlin 1991	Ceccarelli et al. 2014 & Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Carcharhinus melanopterus	204	PV	R	Lenolo et al. 2021	Lyle 1987	Ceccarelli et al. 2014 & Heupel et al. 2019
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Carcharhinus obscurus	420	PV	OS	Ebert & Dando & Fowler 2021	Clark & Von Schmidt 1965	Ceccarelli et al. 2014 & Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Carcharhinus perezi	295	PV	R	Ebert & Dando & Fowler 2021	Soto 2001c	Smith 1997 & Garla et al. 2006
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Carcharhinus plumbeus	300	PV	IS	Ebert & Dando & Fowler 2021	Jordan et al. 2021	Ceccarelli et al. 2014 &  Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Carcharhinus porosus	150	PV	IS	Compagno & Dando & Fowler 2005	Garzón‐Peña et al. 2021	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Carcharhinus sealei	96	NA	IS	Nurdin & Diandria Kembaren & Tirtadanu 2023	NA	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Carcharhinus signatus	280	PV	OS	Ebert & Dando & Fowler 2021	Hazin et al. 2000	Carlson et al. 2008 & Castro 2011
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Carcharhinus sorrah	180	PV	IS	Ebert & Dando & Fowler 2021	Stevens & Wiley 1986	Knip 2011 & Ceccarelli et al. 2014 & Heupel et al. 2019
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Carcharhinus tilstoni	200	PV	IS	Ebert & Dando & Fowler 2021	Stevens & Wiley 1986	Ceccarelli et al. 2014 & Heupel et al. 2019
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Carcharhinus tjutjot	94	PV	IS	White 2012	White 2012	Ebert & Dando & Fowler 2021
+Galeomorphii	Lamniformes	Carcharhiidae	Carcharias taurus	325	Oo	R	Ebert & Dando & Fowler 2021	Gimore 1993	Ceccarelli et al. 2014 & Ebert & Dando & Fowler 2021
+Galeomorphii	Lamniformes	Lamnidae	Carcharodon carcharias	640	Oo	O	Ebert & Dando & Fowler 2021	Sato et al. 2016	Boustany et al. 2008, but see Bruce 2008
+Squalomorphii	Squaliformes	Centrophoridae	Centrophorus atromarginatus	99	YV	D	White & Dharmadi 2010	White & Dharmadi 2010	Ebert & Dando & Fowler 2021
+Squalomorphii	Squaliformes	Centrophoridae	Centrophorus granulosus	176	YV	D	Ebert & Dando & Fowler 2021	White et al. 2013 & Cotton et al. 2015	Ebert & Dando & Fowler 2021
+Squalomorphii	Squaliformes	Centrophoridae	Centrophorus harrissoni	114	YV	D	White & Ebert & Compagno 2008	Graham & Daley 2011	White & Ebert & Compagno 2008
+Squalomorphii	Squaliformes	Centrophoridae	Centrophorus isodon	108	YV	D	White & Dharmadi 2010	White & Dharmadi 2010	Ebert & Dando & Fowler 2021
+Squalomorphii	Squaliformes	Centrophoridae	Centrophorus lesliei	99	YV	D	Ebert & Dando & Fowler 2021	White & Ebert & Naylor 2017	White & Ebert & Naylor 2017
+Squalomorphii	Squaliformes	Centrophoridae	Centrophorus longipinnis	91	YV	D	White & Ebert & Naylor 2017	White & Ebert & Naylor 2017	White & Ebert & Naylor 2017
+Squalomorphii	Squaliformes	Centrophoridae	Centrophorus lusitanicus	160	YV	D	Compango 1984	White & Dharmadi 2010	Compango 1984
+Squalomorphii	Squaliformes	Centrophoridae	Centrophorus moluccensis	98	YV	D	Graham & Daley 2011	Graham & Daley 2011	Ebert & Dando & Fowler 2021
+Squalomorphii	Squaliformes	Centrophoridae	Centrophorus seychellorum	80	NA	D	Baranes 2003	NA	Baranes 2003
+Squalomorphii	Squaliformes	Centrophoridae	Centrophorus squamosus	166	YV	D	Moura et al. 2014	Figueiredo et al. 2008	Rodríguez-Cabello & González-Pola & Sánchez 2016 & Ebert & Dando & Fowler 2021
+Squalomorphii	Squaliformes	Centrophoridae	Centrophorus tessellatus	90	NA	D	Ebert & Dando & Fowler 2021	NA	Ebert & Dando & Fowler 2021
+Squalomorphii	Squaliformes	Centrophoridae	Centrophorus uyato	128	YV	D	Ebert & Dando & Fowler 2021	Lteif et al. 2017	Lteif et al. 2017
+Squalomorphii	Squaliformes	Centrophoridae	Centrophorus westraliensis	91	NA	D	White & Ebert & Compagno 2008	NA	White & Ebert & Compagno 2008
+Squalomorphii	Squaliformes	Centrophoridae	Centrophorus zeehaani	110	YV	D	Graham & Daley 2011	Graham & Daley 2011	White & Ebert & Compagno 2008 & Graham & Daley 2011
+Squalomorphii	Squaliformes	Etmopteridae	Centroscyllium excelsum	64	YV	D	Shirai & Nakay 1990	Shirai & Nakay 1990	Shirai & Nakay 1990
+Squalomorphii	Squaliformes	Etmopteridae	Centroscyllium fabricii	120	YV	D	Ebert & Dando & Fowler 2021	Yano 1995	Ebert & Dando & Fowler 2021
+Squalomorphii	Squaliformes	Etmopteridae	Centroscyllium granulatum	62	YV	D	Ebert & Dando & Fowler 2021	Valenzuela & Bustamante & Lamilla 2008	Bustamante & Vargas-Caro & Bennett 2014
+Squalomorphii	Squaliformes	Etmopteridae	Centroscyllium kamoharai	63	YV	D	Daley & Stevens & Graham 2002	Abe 1966	Daley & Stevens & Graham 2002
+Squalomorphii	Squaliformes	Etmopteridae	Centroscyllium nigrum	52	YV	D	Ebert & Dando & Fowler 2021	Gatica & Acuna 2011	Mundy 2005
+Squalomorphii	Squaliformes	Etmopteridae	Centroscyllium ornatum	51	NA	D	Ebert & Dando & Fowler 2021	NA	Ebert & Dando & Fowler 2021
+Squalomorphii	Squaliformes	Etmopteridae	Centroscyllium ritteri	49	NA	D	Ebert & Dando & Fowler 2021	NA	Ebert & Dando & Fowler 2021
+Squalomorphii	Squaliformes	Somniosidae	Centroscymnus coelolepis	137	YV	D	Haride et al. 2003	Moura et al. 2011	Sherburne 1973 & Moura et al. 2014
+Squalomorphii	Squaliformes	Somniosidae	Centroscymnus owstonii	120	YV	D	Ebert & Dando & Fowler 2021	Yano & Tanaka 1988	Yano & Tanaka & Sho 1988 & Ebert & Dando & Fowler 2021
+Squalomorphii	Squaliformes	Somniosidae	Centroselachus crepidater	103	YV	D	Daley & Stevens & Graham 2002	Pethybridge et al. 2011	Daley & Stevens & Graham 2002
+Galeomorphii	Carcharhiniformes	Scyliorhinidae	Cephaloscyllium albipinnum	110	O	OS	Last & Motomura & White 2008	Last & Motomura & White 2008	Last & Motomura & White 2008
+Galeomorphii	Carcharhiniformes	Scyliorhinidae	Cephaloscyllium cooki	30	NA	D	Last & Séret & White 2008	NA	Last & Séret & White 2008
+Galeomorphii	Carcharhiniformes	Scyliorhinidae	Cephaloscyllium fasciatum	42	O	OS	Chan 1986	Springer 1979	Schaaf-da Silva & Ebert 2008
+Galeomorphii	Carcharhiniformes	Scyliorhinidae	Cephaloscyllium formosanum	66	O	D	Nakaya & Inoue & Ho 2013	Nakaya & Inoue & Ho 2013	Nakaya & Inoue & Ho 2013
+Galeomorphii	Carcharhiniformes	Scyliorhinidae	Cephaloscyllium hiscosellum	52	O	D	White & Ebert 2008	White & Ebert 2008	White & Ebert 2008
+Galeomorphii	Carcharhiniformes	Scyliorhinidae	Cephaloscyllium isabellum	150	O	D	Ebert & Dando & Fowler 2021	Springer 1979	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Scyliorhinidae	Cephaloscyllium laticeps	150	O	OS	Ebert & Dando & Fowler 2021	Springer 1979	Hoese et al. 2006
+Galeomorphii	Carcharhiniformes	Scyliorhinidae	Cephaloscyllium pictum	72	NA	OS	Last & Séret & White 2008	NA	Last & Séret & White 2008
+Galeomorphii	Carcharhiniformes	Scyliorhinidae	Cephaloscyllium sarawakensis	44	O	IS	Nakaya & Inoue & Ho 2013	Nakaya et al 2020	Nakaya & Inoue & Ho 2013
+Galeomorphii	Carcharhiniformes	Scyliorhinidae	Cephaloscyllium signourum	74	O	D	Last & Séret & White 2008	Last & Séret & White 2008	Last & Séret & White 2008
+Galeomorphii	Carcharhiniformes	Scyliorhinidae	Cephaloscyllium silasi	45	O	D	Akhilesh et al. 2014	Akhilesh et al. 2014	Akhilesh et al. 2014
+Galeomorphii	Carcharhiniformes	Scyliorhinidae	Cephaloscyllium speccum	69	NA	OS	Last & Séret & White 2008	NA	Last & Séret & White 2008
+Galeomorphii	Carcharhiniformes	Scyliorhinidae	Cephaloscyllium stevensi	66	NA	D	Clark & Randall 2011	NA	Clark & Randall 2011
+Galeomorphii	Carcharhiniformes	Scyliorhinidae	Cephaloscyllium sufflans	110	NA	OS	Ebert & Dando & Fowler 2021	NA	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Scyliorhinidae	Cephaloscyllium umbratile	115	O	OS	Nakaya & Inoue & Ho 2013	Nakaya 1975	Nakaya & Inoue & Ho 2013 & Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Scyliorhinidae	Cephaloscyllium variegatum	74	O	OS	Last & White 2008	Last & White 2008	Last & White 2008 & Ceccarelli et al. 2014
+Galeomorphii	Carcharhiniformes	Scyliorhinidae	Cephaloscyllium ventriosum	100	O	IS	Ebert & Dando & Fowler 2021	Springer 1979	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Scyliorhinidae	Cephaloscyllium zebrum	45	NA	D	Last & Séret & White 2008	NA	Last & Séret & White 2008
+Galeomorphii	Carcharhiniformes	Pentanchidae	Cephalurus cephalus	37	YV	D	Jaime-Rivera & Lopez-Archundia & Salinas-Zavala 2011	Springer 1979	Jaime-Rivera & Lopez-Archundia & Salinas-Zavala 2011
+Galeomorphii	Lamniformes	Cetorhinidae	Cetorhinus maximus	1097	Oo	O	Ebert & Dando & Fowler 2021	Hamlett 2011	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Hemigaleidae	Chaenogaleus macrostoma	125	PV	IS	White 2007	Jordan et al. 2021	Rigby et al. 2021
+Galeomorphii	Orectolobiformes	Hemiscylliidae	Chiloscyllium arabicum	78	O	R	Alhajji et al. 2022	Alhajji et al. 2022	Ebert & Dando & Fowler 2021
+Galeomorphii	Orectolobiformes	Hemiscylliidae	Chiloscyllium burmensis	58	NA	R	Dingerkus & de Fino 1983	NA	Ebert & Dando & Fowler 2021
+Galeomorphii	Orectolobiformes	Hemiscylliidae	Chiloscyllium griseum	77	O	R	Ebert & Dando & Fowler 2021	Aiyar & Nalini 1938	VanderWright et al. 2020b
+Galeomorphii	Orectolobiformes	Hemiscylliidae	Chiloscyllium hasseltii	67	O	R	Datta et al. 2020	bin Ayob et al. 2020	Datta et al. 2020 & Ebert et al. 2021
+Galeomorphii	Orectolobiformes	Hemiscylliidae	Chiloscyllium indicum	65	O	R	Ebert & Dando & Fowler 2021	Smedley 1926	VanderWright et al. 2020a
+Galeomorphii	Orectolobiformes	Hemiscylliidae	Chiloscyllium plagiosum	95	O	R	Ebert & Dando & Fowler 2021	Chen & Liu 2006	Ebert & Dando & Fowler 2021
+Galeomorphii	Orectolobiformes	Hemiscylliidae	Chiloscyllium punctatum	132	O	R	Ebert & Dando & Fowler 2021	Haque & Das 2019 & Ebert & Dando & Fowler 2021	Ceccarelli et al. 2014 & Ebert & Dando & Fowler 2021
+Squalomorphii	Hexanchiformes	Chlamydoselachidae	Chlamydoselachus africana	117	NA	D	Ebert & Compagno 2009	NA	Ebert & Compagno 2009
+Squalomorphii	Hexanchiformes	Chlamydoselachidae	Chlamydoselachus anguineus	196	YV	D	Ebert & Dando & Fowler 2021	Tanaka et al. 1990	Ebert & Dando & Fowler 2021
+Squalomorphii	Squaliformes	Squalidae	Cirrhigaleus asper	124	YV	OS	Fischer et al. 2006	Fischer et al. 2006	Ebert & Dando & Fowler 2021
+Squalomorphii	Squaliformes	Squalidae	Cirrhigaleus australis	123	NA	OS	White & Last & Stevens 2007c	NA	White & Last & Stevens 2007 & Duffy and Last 2015
+Squalomorphii	Squaliformes	Squalidae	Cirrhigaleus barbifer	126	YV	OS	Ebert & Dando & Fowler 2021	Garrick & Paul & Island 1971	Ebert & Dando & Fowler 2021
+Galeomorphii	Orectolobiformes	Parascylliidae	Cirrhoscyllium expolitum	34	O	OS	Ebert & Dando & Fowler 2021	Goto & Nakaya 1996	Ebert & Dando & Fowler 2021
+Galeomorphii	Orectolobiformes	Parascylliidae	Cirrhoscyllium formosanum	40	NA	OS	Ebert & Dando & Fowler 2021	NA	Ebert & Dando & Fowler 2021
+Galeomorphii	Orectolobiformes	Parascylliidae	Cirrhoscyllium japonicum	49	O	D	Ebert & Dando & Fowler 2021	Goto & Nakaya 1996	Goto & Nakaya 1996
+Galeomorphii	Carcharhiniformes	Proscyllidae	Ctenacis fehlmanni	46	NA	OS	Springer 1968	NA	Ebert et al. 2017b
+Squalomorphii	Squaliformes	Dalatiidae	Dalatias licha	182	YV	D	Ebert & Dando & Fowler 2021	Capapé et al. 2008	Capapé et al. 2008 & Ebert & Dando & Fowler 2021
+Squalomorphii	Squaliformes	Centrophoridae	Deania calcea	162	YV	D	Moura et al. 2014	Irvine et al. 2012	Dunn et al. 2013 & Moura et al. 2014
+Squalomorphii	Squaliformes	Centrophoridae	Deania hystricosa	119	NA	D	Nakajima et al. 2022	NA	Nakajima et al. 2022
+Squalomorphii	Squaliformes	Centrophoridae	Deania profundorum	110	YV	D	Sousa et al. 2009	Sousa et al. 2009	Sousa et al. 2009
+Squalomorphii	Squaliformes	Centrophoridae	Deania quadrispinosa	119	YV	D	Irvine et al. 2012	Irvine et al. 2012	Irvine et al. 2012
+Squalomorphii	Echinorhiniformes	Echinorhinidae	Echinorhinus brucus	396	YV	D	Ebert & Dando & Fowler 2021	Akhilesh et al 2013b	Ebert & Dando & Fowler 2021
+Squalomorphii	Echinorhiniformes	Echinorhinidae	Echinorhinus cookei	450	YV	D	Ebert & Dando & Fowler 2021	Crow & Lowe & Wetherbee 1996	Ceccarelli et al. 2014 & Finucci 2018
+Galeomorphii	Carcharhiniformes	Proscyllidae	Eridacnis barbouri	34	YV	D	Ebert & Dando & Fowler 2021	Eigenman & Eigenman 1889	Kiraly et al. 2003
+Galeomorphii	Carcharhiniformes	Proscyllidae	Eridacnis radcliffei	26	YV	D	Akhilesh et al. 2012	Nair & Appukuttan 1974	Akhilesh et al. 2012
+Galeomorphii	Carcharhiniformes	Proscyllidae	Eridacnis sinuans	37	NA	OS	Ebert & Dando & Fowler 2021	NA	Ebert & Dando & Fowler 2021
+Squalomorphii	Squaliformes	Etmopteridae	Etmopterus alphus	39	YV	D	Ebert et al. 2016	Ebert et al. 2016	Ebert et al. 2016
+Squalomorphii	Squaliformes	Etmopteridae	Etmopterus bigelowi	67	YV	D	Shirai & Tachikawa 1993	Shirai & Tachikawa 1993	Shirai & Tachikawa 1993
+Squalomorphii	Squaliformes	Etmopteridae	Etmopterus brachyurus	52	YV	D	Oñate & Pequeño 2005	Tanaka, pers. obs. 2007 & Ebert & Dando & Fowler 2021	Oñate & Pequeño 2005 & Ceccarelli et al. 2014
+Squalomorphii	Squaliformes	Etmopteridae	Etmopterus brosei	51	NA	D	Ebert & Leslie & Weigmann, 2021	NA	Ebert & Leslie & Weigmann, 2021
+Squalomorphii	Squaliformes	Etmopteridae	Etmopterus bullisi	30	NA	D	Ebert & Dando & Fowler 2021	NA	Kirlay et al. 2003
+Squalomorphii	Squaliformes	Etmopteridae	Etmopterus burgessi	41	NA	D	Schaaf-Da Silva & Ebert 2006	NA	Schaaf-Da Silva & Ebert 2006
+Squalomorphii	Squaliformes	Etmopteridae	Etmopterus carteri	21	NA	D	Springer & Burgess 1985	NA	Springer & Burgess 1985
+Squalomorphii	Squaliformes	Etmopteridae	Etmopterus caudistigmus	34	NA	D	Last & Burgess & Séret 2002	NA	Last & Burgess & Séret 2002
+Squalomorphii	Squaliformes	Etmopteridae	Etmopterus compagnoi	67	NA	D	Ebert & Dando & Fowler 2021	NA	Ebert & Dando & Fowler 2021
+Squalomorphii	Squaliformes	Etmopteridae	Etmopterus decacuspidatus	29	NA	D	Chan 1966	NA	Chan 1966
+Squalomorphii	Squaliformes	Etmopteridae	Etmopterus dianthus	41	NA	D	Last & Burgess & Séret 2002	NA	Last & Burgess & Séret 2002 & Ceccarelli et al. 2014
+Squalomorphii	Squaliformes	Etmopteridae	Etmopterus dislineatus	45	NA	D	Last & Burgess & Séret 2002	NA	Last & Burgess & Séret 2002
+Squalomorphii	Squaliformes	Etmopteridae	Etmopterus evansi	30	NA	D	Last & Burgess & Séret 2002	NA	Last & Burgess & Séret 2002
+Squalomorphii	Squaliformes	Etmopteridae	Etmopterus fusus	29	NA	D	Last & Burgess & Séret 2002	NA	Last & Burgess & Séret 2002
+Squalomorphii	Squaliformes	Etmopteridae	Etmopterus gracilispinis	33	NA	D	Ebert & Dando & Fowler 2021	NA	Ebert & Dando & Fowler 2021
+Squalomorphii	Squaliformes	Etmopteridae	Etmopterus granulosus	102	YV	D	Ebert & Dando & Fowler 2021	Pethybridge et al. 2011	Ebert & Dando & Fowler 2021
+Squalomorphii	Squaliformes	Etmopteridae	Etmopterus hillianus	30	NA	D	Ebert & Dando & Fowler 2021	NA	Bunkley-Williams & Williams 2004
+Squalomorphii	Squaliformes	Etmopteridae	Etmopterus lailae	37	NA	D	Ebert et al. 2017	NA	Ebert et al. 2017
+Squalomorphii	Squaliformes	Etmopteridae	Etmopterus litvinovi	61	NA	D	Kotlyar 1990 & Vásquez, Ebert & Long, 2015	Vásquez, Ebert & Long, 2015	Kotlyar 1990 &Vásquez, Ebert & Long, 2015
+Squalomorphii	Squaliformes	Etmopteridae	Etmopterus lucifer	47	YV	D	Ebert & Dando & Fowler 2021	Galland 2015	Dunn et al. 2013 & Ceccarelli et al. 2014
+Squalomorphii	Squaliformes	Etmopteridae	Etmopterus marshae	23	NA	D	Ebert & Van Hees 2018	NA	Ebert & Van Hees 2018
+Squalomorphii	Squaliformes	Etmopteridae	Etmopterus molleri	46	YV	D	Ebert & Dando & Fowler 2021	Duchatelet et al. 2020	Ebert & Dando & Fowler 2021
+Squalomorphii	Squaliformes	Etmopteridae	Etmopterus parini	38	NA	D	Dolganov & Balanov 2018	NA	Dolganov & Balanov 2018
+Squalomorphii	Squaliformes	Etmopteridae	Etmopterus perryi	20	YV	D	Springer & Burgess 1985	Springer & Burgess 1985	Springer & Burgess 1985
+Squalomorphii	Squaliformes	Etmopteridae	Etmopterus polli	23	NA	D	Bigelow & Schroeder & Springer 1953	NA	Bigelow & Schroeder & Springer 1953
+Squalomorphii	Squaliformes	Etmopteridae	Etmopterus princeps	94	YV	D	Ebert & Dando & Fowler 2021	Cotton et al. 2015	Ebert & Dando & Fowler 2021
+Squalomorphii	Squaliformes	Etmopteridae	Etmopterus pseudosqualiolus	45	NA	D	Last & Burgess & Séret 2002	NA	Last & Burgess & Séret 2002
+Squalomorphii	Squaliformes	Etmopteridae	Etmopterus pusillus	67	YV	D	Kotlyar 1990	Coelho & Erzini 2007	Coelho & Erzini 2007
+Squalomorphii	Squaliformes	Etmopteridae	Etmopterus pycnolepis	46	NA	D	Kotlyar 1990	NA	Kotlyar 1990
+Squalomorphii	Squaliformes	Etmopteridae	Etmopterus robinsi	34	NA	D	Schofield & Burgess 1997	NA	Schofield & Burgess 1997
+Squalomorphii	Squaliformes	Etmopteridae	Etmopterus samadiae	28	NA	D	White et al. 2017	NA	White et al. 2017
+Squalomorphii	Squaliformes	Etmopteridae	Etmopterus schultzi	30	NA	D	Bigelow & Schroeder & Springer 1953	NA	Bigelow & Schroeder & Springer 1953
+Squalomorphii	Squaliformes	Etmopteridae	Etmopterus sculptus	59	NA	D	Ebert & Dando & Fowler 2021	NA	Ebert & Compagno & De Vries 2011
+Squalomorphii	Squaliformes	Etmopteridae	Etmopterus sentosus	27	NA	D	Ebert & Dando & Fowler 2021	NA	Ebert & Dando & Fowler 2021
+Squalomorphii	Squaliformes	Etmopteridae	Etmopterus sheikoi	43	NA	D	Ebert & Dando & Fowler 2021	NA	Ebert & Dando & Fowler 2021
+Squalomorphii	Squaliformes	Etmopteridae	Etmopterus spinax	55	YV	D	Claes et al. 2015	Capapé et al. 2001	Jones et al. 2003
+Squalomorphii	Squaliformes	Etmopteridae	Etmopterus splendidus	30	NA	D	Yano 1988	NA	Claes & Sato & Mallefet 2011
+Squalomorphii	Squaliformes	Etmopteridae	Etmopterus unicolor	79	YV	D	Ebert & Dando & Fowler 2021	Yano & Tanaka 1989	Yano & Tanaka 1989
+Squalomorphii	Squaliformes	Etmopteridae	Etmopterus viator	58	YV	D	Straube et al. 2011	Straube et al. 2011	Straube et al. 2011
+Squalomorphii	Squaliformes	Etmopteridae	Etmopterus villosus	65	NA	D	Dolganov 2019a	NA	Dolganov 2019a
+Squalomorphii	Squaliformes	Etmopteridae	Etmopterus virens	23	YV	D	Bigelow & Schroeder & Springer 1953	Bigelow & Schroeder & Springer 1953	Bigelow & Schroeder & Springer 1953
+Galeomorphii	Orectolobiformes	Orectolobidae	Eucrossorhinus dasypogon	125	NA	R	Ceccarelli & Williamson 2012	NA	Ceccarelli et al. 2014 & Ebert & Dando & Fowler 2021
+Squalomorphii	Squaliformes	Dalatiidae	Euprotomicroides zantedeschia	53	NA	D	Stehmann & Van Oijen & Kamminga 2016	NA	Stehmann & Van Oijen & Kamminga 2016
+Squalomorphii	Squaliformes	Dalatiidae	Euprotomicrus bispinatus	27	YV	D	Ebert & Dando & Fowler 2021	Hubbs & Iwai & Matsubara 1967	Hubbs & Iwai & Matsubara 1967
+Galeomorphii	Carcharhiniformes	Sphyrnidae	Eusphyra blochii	186	PV	IS	Stevens & Lyle 1989	Appukuttan 1978	Ceccarelli et al. 2014 & Smart & Simpfendorfer 2016
+Galeomorphii	Carcharhiniformes	Pentanchidae	Figaro boardmani	61	O	OS	Ebert & Dando & Fowler 2021	Bustamante & Kyne & Bennett 2013	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Pentanchidae	Figaro striatus	42	NA	D	Gledhill & Last & White 2008	NA	Gledhill & Last & White 2008 & Ceccarelli et al. 2014
+Galeomorphii	Carcharhiniformes	Triakidae	Furgaleus macki	160	YV	IS	Ebert & Dando & Fowler 2021	Simpfendorfer & Unsworth 1998	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Galeocerdidae	Galeocerdo cuvier	740	YV	IS	Ebert & Dando & Fowler 2021	Castro & Sato & Bodine 2016	Ceccarelli et al. 2014 & Meyer et al. 2018
+Galeomorphii	Carcharhiniformes	Triakidae	Galeorhinus galeus	200	YV	OS	Capapé & Mellinger 1988	Lucifora & Menni & Escalante 2004	Walker et al. 2020
+Galeomorphii	Carcharhiniformes	Pentanchidae	Galeus antillensis	46	O	D	Konstantinou et al. 2000	Konstantinou et al. 2000	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Pentanchidae	Galeus arae	33	O	D	Konstantinou et al. 2000	Konstantinou et al. 2000	Konstantinou et al. 2000 & Kiraly et al. 2003
+Galeomorphii	Carcharhiniformes	Pentanchidae	Galeus atlanticus	46	O	D	Rey et al. 2010	Munoz-Chapuli & Perez Ortega 1985 & Rey et al. 2010	Rey et al. 2010
+Galeomorphii	Carcharhiniformes	Pentanchidae	Galeus cadenati	35	O	D	Konstantinou & Cozzi 1998	Konstantinou et al. 2000	Springer 1966 & Konstantinou & Cozzi 1998
+Galeomorphii	Carcharhiniformes	Pentanchidae	Galeus eastmani	50	O	D	Ebert & Dando & Fowler 2021	Nakaya 1975 & Horie & Tanaka 2000	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Pentanchidae	Galeus friedrichi	53	NA	D	Ebert & Jang 2022	NA	Ebert & Jang 2022
+Galeomorphii	Carcharhiniformes	Pentanchidae	Galeus gracilis	34	NA	D	Compagno & Stevens 1993a	NA	Compagno & Stevens 1993a & Ceccarelli et al. 2014
+Galeomorphii	Carcharhiniformes	Pentanchidae	Galeus longirostris	80	NA	D	Tachikawa & Taniuchi 1987	NA	Tachikawa & Taniuchi 1987
+Galeomorphii	Carcharhiniformes	Pentanchidae	Galeus melastomus	90	O	D	Ebert & Dando & Fowler 2021	Gordon & Hood & Ellis 2016	Stefanescu & Lloris & Rucabado 1992
+Galeomorphii	Carcharhiniformes	Pentanchidae	Galeus mincaronei	40	O	D	Soto 2001b	Soto 2001b	Soto 2001b
+Galeomorphii	Carcharhiniformes	Pentanchidae	Galeus murinus	63	O	D	Saemundsson 1922 & Springer 1979	Iglésias et al. 2001	Rodríguez-Cabello & Pérez & Sánchez 2013 & Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Pentanchidae	Galeus nipponensis	76	O	D	Ebert & Dando & Fowler 2021	Nakaya 1975 & Horie & Tanaka 2000	﻿Horie & Tanaka 2000 & Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Pentanchidae	Galeus piperatus	37	O	D	O. Sosa, unpublished data & Ebert & Dando & Fowler 2021	Hubbs & Taylor 1969	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Pentanchidae	Galeus polli	46	YV	OS	Ebert & Cowley & Compagno 1996	Springer 1979	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Pentanchidae	Galeus priapus	46	NA	D	Séret & Last 2008a	NA	Séret & Last 2008a
+Galeomorphii	Carcharhiniformes	Pentanchidae	Galeus sauteri	46	O	OS	Liu et al. 2011	Nakaya 1975 & Chen & Liao & Joung 1996	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Pentanchidae	Galeus schultzi	30	NA	D	Springer 1979	NA	Springer 1979
+Galeomorphii	Carcharhiniformes	Pentanchidae	Galeus springeri	44	NA	D	Konstantinou & Cozzi 1998	NA	Konstantinou & Cozzi 1998 & Kiraly et al. 2003
+Galeomorphii	Orectolobiformes	Ginglymostomatidae	Ginglymostoma cirratum	308	YV	R	Ebert & Dando & Fowler 2021	Castro 2000	Ebert & Dando & Fowler 2021
+Galeomorphii	Orectolobiformes	Ginglymostomatidae	Ginglymostoma unami	280	YV	R	del Moral-Flores et al. 2015	del Moral-Flores et al. 2015	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Glyphis gangeticus	275	NA	IS	Ebert & Dando & Fowler 2021	NA	Haq & Das 2019 & Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Glyphis garricki	251	NA	IS	Compagno & White & Last 2008	NA	Compagno & White & Last 2008
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Glyphis glyphis	260	NA	IS	White et al. 2015a	NA	Ceccarelli et al. 2014 & Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Triakidae	Gogolia filewoodi	74	YV	IS	Compagno 1973	Compagno 1973	Compagno 1973
+Galeomorphii	Carcharhiniformes	Pseudotriakidae	Gollum attenuatus	109	Oo	D	Yano 1993	Yano 1993	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Pseudotriakidae	Gollum suluensis	65	NA	D	Ebert & Dando & Fowler 2021	NA	Last & Gaudiano 2011
+Galeomorphii	Carcharhiniformes	Pentanchidae	Halaelurus boesemani	48	O	IS	Springer 1979	Springer 1979	Springer 1979 & Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Pentanchidae	Halaelurus buergeri	49	O	OS	Nakaya 1975	Nakaya 1975	Nakaya 1975 & Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Pentanchidae	Halaelurus lineatus	60	O	IS	Fennessy 1994	Springer 1979	Fennessy 1994 & Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Pentanchidae	Halaelurus maculosus	53	O	IS	White & Last & Stevens 2007b	White & Last & Stevens 2007b	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Pentanchidae	Halaelurus natalensis	50	O	IS	Ebert & Dando & Fowler 2021	Schmöle & Brown & Wittevee 2020	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Pentanchidae	Halaelurus quagga	37	O	OS	Akhilesh et al. 2011	Akhilesh et al. 2011	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Pentanchidae	Halaelurus sellus	42	O	IS	White & Last & Stevens 2007b	White & Last & Stevens 2007b	White & Last & Stevens 2007b
+Galeomorphii	Carcharhiniformes	Pentanchidae	Haploblepharus edwardsii	64	O	IS	Ebert & Dando & Fowler 2021	von Bonde 1945	Dainty 2002
+Galeomorphii	Carcharhiniformes	Pentanchidae	Haploblepharus fuscus	69	O	IS	Springer 1979	Nakaya & White & Ho 2020	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Pentanchidae	Haploblepharus kistnasamyi	50	NA	IS	Ebert & Dando & Fowler 2021	NA	Human & Compagno 2006
+Galeomorphii	Carcharhiniformes	Pentanchidae	Haploblepharus pictus	70	O	IS	Ebert & Dando & Fowler 2021	Pretorius & Griffiths 2013	Dainty 2002
+Galeomorphii	Carcharhiniformes	Hemigaleidae	Hemigaleus australiensis	110	PV	IS	White & Last & Compagno 2005	White & Last & Compagno 2005	White & Last & Compagno 2005 & Ceccarelli et al. 2014
+Galeomorphii	Carcharhiniformes	Hemigaleidae	Hemigaleus microstoma	114	PV	IS	Ebert & Dando & Fowler 2021	Stevens & Cuthbert 1983	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Hemigaleidae	Hemipristis elongata	240	PV	IS	Ebert & Dando & Fowler 2021	Jordan et al. 2021	Ceccarelli et al. 2014
+Galeomorphii	Orectolobiformes	Hemiscylliidae	Hemiscyllium freycineti	69	NA	R	Allen et al. 2016	NA	Allen et al. 2016
+Galeomorphii	Orectolobiformes	Hemiscylliidae	Hemiscyllium galei	57	NA	R	Allen et al. 2016	NA	Allen et al. 2016
+Galeomorphii	Orectolobiformes	Hemiscylliidae	Hemiscyllium hallstromi	76	NA	R	Allen et al. 2016	NA	Allen et al. 2016
+Galeomorphii	Orectolobiformes	Hemiscylliidae	Hemiscyllium halmahera	68	NA	R	Allen et al. 2016	NA	Allen et al. 2016
+Galeomorphii	Orectolobiformes	Hemiscylliidae	Hemiscyllium henryi	82	NA	R	Allen et al. 2016	NA	Allen et al. 2016
+Galeomorphii	Orectolobiformes	Hemiscylliidae	Hemiscyllium michaeli	70	NA	R	Allen et al. 2016	NA	Allen et al. 2016
+Galeomorphii	Orectolobiformes	Hemiscylliidae	Hemiscyllium ocellatum	107	O	R	Ebert & Dando & Fowler 2021	Heupel & Whittier & Bennett 1999	Ceccarelli et al. 2014
+Galeomorphii	Orectolobiformes	Hemiscylliidae	Hemiscyllium strahani	80	NA	R	Ebert & Dando & Fowler 2021	NA	Allen et al. 2016
+Galeomorphii	Orectolobiformes	Hemiscylliidae	Hemiscyllium trispeculare	79	NA	R	Ebert & Dando & Fowler 2021	NA	Ceccarelli et al. 2014
+Galeomorphii	Carcharhiniformes	Triakidae	Hemitriakis abdita	80	NA	D	Ebert & Dando & Fowler 2021	NA	Compagno & Stevens 1993c
+Galeomorphii	Carcharhiniformes	Triakidae	Hemitriakis complicofasciata	93	YV	IS	Takahashi & Nakaya 2004	Takahashi & Nakaya 2004	Takahashi & Nakaya 2004
+Galeomorphii	Carcharhiniformes	Triakidae	Hemitriakis falcata	77	NA	OS	Compagno & Stevens 1993c	NA	Compagno & Stevens 1993c
+Galeomorphii	Carcharhiniformes	Triakidae	Hemitriakis indroyonoi	120	YV	OS	White & Compagno & Dharmadi 2009	White & Compagno & Dharmadi 2009	White & Compagno & Dharmadi 2009
+Galeomorphii	Carcharhiniformes	Triakidae	Hemitriakis japanica	120	YV	OS	Ebert & Dando & Fowler 2021	Chen & Mizue 1973	Yano & Kugai 1993 & Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Triakidae	Hemitriakis leucoperiptera	96	NA	IS	Ebert & Dando & Fowler 2021	NA	Ebert & Dando & Fowler 2021
+Squalomorphii	Hexanchiformes	Hexanchidae	Heptranchias perlo	139	YV	D	Ebert & Dando & Fowler 2021	Oddone & Capapé 2022	Ceccarelli et al. 2014
+Galeomorphii	Heterodontiformes	Heterodontidae	Heterodontus francisci	122	O	R	Ebert & Dando & Fowler 2021	Cox 1963	Meese et al. 2020
+Galeomorphii	Heterodontiformes	Heterodontidae	Heterodontus galeatus	130	O	R	Ebert & Dando & Fowler 2021	Ebert & Dando & Fowler 2021	Bass et al. 2022
+Galeomorphii	Heterodontiformes	Heterodontidae	Heterodontus japonicus	120	O	IS	Ebert & Dando & Fowler 2021	Ebert & Dando & Fowler 2021	Ebert & Dando & Fowler 2021
+Galeomorphii	Heterodontiformes	Heterodontidae	Heterodontus marshallae	60	O	OS	White et al., 2023	White et al., 2023	White et al., 2023
+Galeomorphii	Heterodontiformes	Heterodontidae	Heterodontus mexicanus	170	O	R	Ebert & Dando & Fowler 2021	Oddone & Capapé 2022	Ebert & Dando & Fowler 2021
+Galeomorphii	Heterodontiformes	Heterodontidae	Heterodontus omanensis	61	O	IS	Baldwin 2005	Baldwin 2005	Baldwin 2005
+Galeomorphii	Heterodontiformes	Heterodontidae	Heterodontus portusjacksoni	165	O	R	Ebert & Dando & Fowler 2021	Powter & Gladstone 2008	Last and Stevens 2009
+Galeomorphii	Heterodontiformes	Heterodontidae	Heterodontus quoyi	105	O	R	Ebert & Dando & Fowler 2021	Kato & Springer & Wagner 1967	Ebert & Dando & Fowler 2021
+Galeomorphii	Heterodontiformes	Heterodontidae	Heterodontus ramalheira	83	NA	OS	Ebert & Dando & Fowler 2021	NA	Ebert & Dando & Fowler 2021
+Galeomorphii	Heterodontiformes	Heterodontidae	Heterodontus zebra	122	O	R	Ebert & Dando & Fowler 2021	Onimaru et al. 2018	Last & Stevens 2009
+Squalomorphii	Squaliformes	Dalatiidae	Heteroscymnoides marleyi	37	NA	D	Ebert & Dando & Fowler 2021	NA	Ebert & Dando & Fowler 2021
+Squalomorphii	Hexanchiformes	Hexanchidae	Hexanchus griseus	482	YV	D	Bolivàr 1907	Oddone & Capapé 2022	Ceccarelli et al. 2014
+Squalomorphii	Hexanchiformes	Hexanchidae	Hexanchus nakamurai	180	NA	D	Ebert & Dando & Fowler 2021	NA	Ceccarelli et al. 2014
+Squalomorphii	Hexanchiformes	Hexanchidae	Hexanchus vitulus	240	NA	D	Daly-Engel et al. 2019	NA	Daly-Engel et al. 2019
+Galeomorphii	Carcharhiniformes	Pentanchidae	Holohalaelurus favus	52	NA	D	Human 2006	NA	Human 2006
+Galeomorphii	Carcharhiniformes	Pentanchidae	Holohalaelurus grennian	27	NA	D	Human 2006	NA	Human 2006
+Galeomorphii	Carcharhiniformes	Pentanchidae	Holohalaelurus melanostigma	38	NA	D	Human 2006	NA	Human 2006
+Galeomorphii	Carcharhiniformes	Pentanchidae	Holohalaelurus punctatus	36	NA	D	Ebert & Dando & Fowler 2021	NA	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Pentanchidae	Holohalaelurus regani	69	O	D	Ebert & Cowley & Compagno 1996	Richardson et al. 2000	Human 2006
+Galeomorphii	Carcharhiniformes	Triakidae	Hypogaleus hyugaensis	150	PV	OS	Ebert & Dando & Fowler 2021	Simpfendrofer et al. 2002	Ceccarelli et al. 2014
+Galeomorphii	Carcharhiniformes	Triakidae	Iago garricki	75	NA	D	Fourmanoir & Rivaton 1979	NA	Ng et al. 2022
+Galeomorphii	Carcharhiniformes	Triakidae	Iago omanensis	89	PV	D	Ebert & Dando & Fowler 2021	Jordan et al. 2021	Dulvy et al. 2021
+Squalomorphii	Squaliformes	Dalatiidae	Isistius brasiliensis	56	YV	D	Ebert & Dando & Fowler 2021	Gadig & Gomes 2002	Ebert & Dando & Fowler 2021
+Squalomorphii	Squaliformes	Dalatiidae	Isistius plutodus	42	NA	D	Jahn & Haedrich 1988	NA	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Isogomphodon oxyrhynchus	244	PV	IS	Ebert & Dando & Fowler 2021	Lessa & Batista & Almeida 1999	Ebert & Dando & Fowler 2021
+Galeomorphii	Lamniformes	Lamnidae	Isurus oxyrinchus	445	Oo	O	Capapé 1977	Hsu & Joung 2005	Stevens 2008 & Ceccarelli et al. 2014
+Galeomorphii	Lamniformes	Lamnidae	Isurus paucus	427	Oo	O	Ebert & Dando & Fowler 2021	Gilmore 1993	Ceccarelli et al. 2014 & Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Lamiopsis temminckii	209	PV	IS	Gladston et al. 2018	Akhilesh & Purushottama & Kizhakudan 2017	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Lamiopsis tephrodes	145	NA	IS	White et al. 2010	NA	White et al. 2010 & Ebert & Dando & Fowler 2021
+Galeomorphii	Lamniformes	Lamnidae	Lamna ditropis	305	Oo	O	Goldman & Musick 2006	Gallucci et al. 2008	Rigby et al. 2019a
+Galeomorphii	Lamniformes	Lamnidae	Lamna nasus	365	Oo	O	Ebert & Dando & Fowler 2021	Jensen et al. 2002	Rigby et al. 2019b
+Galeomorphii	Carcharhiniformes	Leptochariidae	Leptocharias smithii	82	PV	IS	Ebert & Dando & Fowler 2021	Compagno 1988	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Loxodon macrorhinus	99	PV	IS	Ebert & Dando & Fowler 2021	Nair & Appukuttan & Rajapandian 1974	Gutteridge et al. 2013
+Galeomorphii	Lamniformes	Megachasmidae	Megachasma pelagios	820	NA	O	Martínez-Ortiz et al. 2017 & Ebert & Dando & Fowler 2021	NA	Ebert & Dando & Fowler 2021
+Galeomorphii	Lamniformes	Mitsukurinidae	Mitsukurina owstoni	620	NA	D	Ebert & Dando & Fowler 2021	NA	Ebert & Dando & Fowler 2021 & Rincon & Vaske & Gadig 2012
+Squalomorphii	Squaliformes	Dalatiidae	Mollisquama mississippiensis	14	NA	D	Grace et al. 2018	NA	Grace et al. 2018
+Squalomorphii	Squaliformes	Dalatiidae	Mollisquama parini	40	NA	D	Dolganov 1984	NA	Dolganov 1984
+Galeomorphii	Carcharhiniformes	Triakidae	Mustelus albipinnis	118	PV	OS	Pérez-Jiménez & Nishizaki & Castillo Geniz 2005	Pérez-Jiménez & Nishizaki & Castillo Geniz 2005	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Triakidae	Mustelus andamanensis	109	NA	IS	White & Arunrugstichai & Naylor 2021	NA	White & Arunrugstichai & Naylor 2021
+Galeomorphii	Carcharhiniformes	Triakidae	Mustelus antarcticus	185	YV	OS	Ebert & Dando & Fowler 2021	Storrie et al. 2009	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Triakidae	Mustelus asterias	140	YV	OS	Ebert & Dando & Fowler 2021	Farrell & Mariani & Clarke 2010	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Triakidae	Mustelus californicus	125	PV	IS	Yudin & Cailliet 1990	Pérez-Jiménez & Sosa-Nishizaki 2010	Pérez-Jiménez et al. 2010
+Galeomorphii	Carcharhiniformes	Triakidae	Mustelus canis	155	PV	IS	Ebert & Dando & Fowler 2021	Hamlett 2002	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Triakidae	Mustelus dorsalis	66	PV	IS	Rojas 2006	Rojas 2006	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Triakidae	Mustelus fasciatus	177	PV	OS	Ebert & Dando & Fowler 2021	Vooren 1992 & Soto 2001a	Soto 2001a
+Galeomorphii	Carcharhiniformes	Triakidae	Mustelus griseus	108	PV	OS	Ebert & Dando & Fowler 2021	Teshima & Mizue & Koga 1974	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Triakidae	Mustelus henlei	100	PV	IS	Yudin & Cailliet 1990	Baró-Camarasa et al. 2022	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Triakidae	Mustelus higmani	88	PV	OS	Ebert & Dando & Fowler 2021	Heemstra 1997	Pollom et al. 2019
+Galeomorphii	Carcharhiniformes	Triakidae	Mustelus lenticulatus	151	YV	OS	Ebert & Dando & Fowler 2021	Francis & Mace 1980	Finucci & Kyne 2018
+Galeomorphii	Carcharhiniformes	Triakidae	Mustelus lunulatus	175	PV	IS	Amezcua Linares 1996	Pérez-Jiménez & Sosa-Nishizaki 2010	Pérez-Jiménez et al. 2016
+Galeomorphii	Carcharhiniformes	Triakidae	Mustelus manazo	135	YV	OS	Ebert & Dando & Fowler 2021	White 2007	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Triakidae	Mustelus mento	141	NA	IS	Valle & Rosas‐Puchuri & Velez‐Zuazo 2021	NA	Silva-Garay et al. 2018
+Galeomorphii	Carcharhiniformes	Triakidae	Mustelus minicanis	57	PV	IS	Heemstra 1997	Tagliafico et al 2017	Heemstra 1997
+Galeomorphii	Carcharhiniformes	Triakidae	Mustelus mosis	150	PV	OS	Ebert & Dando & Fowler 2021	Moore et al. 2016	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Triakidae	Mustelus mustelus	175	PV	IS	Ebert & Dando & Fowler 2021	Smale & Compagno 1997	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Triakidae	Mustelus norrisi	123	PV	IS	Ebert & Dando & Fowler 2021	Clark & Von Schmidt 1965	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Triakidae	Mustelus palumbes	113	YV	OS	Smale & Compagno 1997	Smale & Compagno 1997	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Triakidae	Mustelus punctulatus	122	PV	IS	Saïdi & Bradaï & Bouaïn 2009	Saïdi & Bradaï & Bouaïn 2009 & Oddone & Capapé 2022	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Triakidae	Mustelus ravidus	101	NA	OS	Ebert & Dando & Fowler 2021	NA	Ceccarelli et al. 2014 & Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Triakidae	Mustelus schmitti	109	YV	OS	Menni 1985	Heemstra 1997	Heemstra 1997
+Galeomorphii	Carcharhiniformes	Triakidae	Mustelus sinusmexicanus	140	NA	OS	Heemstra 1997	NA	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Triakidae	Mustelus stevensi	103	NA	OS	White & Last 2008	NA	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Triakidae	Mustelus whitneyi	118	PV	IS	Gonzalez-Pestana & Alfaro-Shigueto & Mangel 2019	Gonzalez-Pestana & Alfaro-Shigueto & Mangel 2019	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Triakidae	Mustelus widodoi	110	NA	OS	White & Last 2006	NA	White & Last 2006
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Nasolamia velox	165	NA	IS	Ebert & Dando & Fowler 2021	NA	Ebert & Dando & Fowler 2021
+Galeomorphii	Orectolobiformes	Ginglymostomatidae	Nebrius ferrugineus	320	Oo	R	Ebert & Dando & Fowler 2021	Teshima et al. 1999	Ceccarelli et al. 2014 & Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Negaprion acutidens	310	PV	R	Ebert & Dando & Fowler 2021	Stevens 1984	Ceccarelli et al. 2014
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Negaprion brevirostris	368	PV	R	Hueter & Gruber 1988	Clark & Von Schmidt 1965	Carlson et al. 2021
+Squalomorphii	Hexanchiformes	Hexanchidae	Notorynchus cepedianus	296	YV	IS	Ebert 2002	Ebert 1989	Williams et al. 2012
+Galeomorphii	Lamniformes	Odontaspididae	Odontaspis ferox	450	NA	OS	Fergusson & Graham & Compagno 2008	NA	Fergusson & Graham & Compagno 2008
+Galeomorphii	Lamniformes	Odontaspididae	Odontaspis noronhai	427	NA	O	Ebert & Dando & Fowler 2021	NA	Kyne & Ebert 2019
+Galeomorphii	Orectolobiformes	Orectolobidae	Orectolobus floridus	75	NA	R	Last & Childow 2008	NA	Ebert & Dando & Fowler 2021
+Galeomorphii	Orectolobiformes	Orectolobidae	Orectolobus halei	206	YV	R	Ebert & Dando & Fowler 2021	Huveneers et al. 2007	Ebert & Dando & Fowler 2021
+Galeomorphii	Orectolobiformes	Orectolobidae	Orectolobus hutchinsi	149	YV	R	Last & Childow & Compagno 2006	Last & Childow & Compagno 2006	Ebert & Dando & Fowler 2021
+Galeomorphii	Orectolobiformes	Orectolobidae	Orectolobus japonicus	118	NA	R	Ebert & Dando & Fowler 2021	NA	Rigby et al. 2020
+Galeomorphii	Orectolobiformes	Orectolobidae	Orectolobus leptolineatus	120	YV	R	Last & Pogonoski & White 2010	Last & Pogonoski & White 2010	Last & Pogonoski & White 2010
+Galeomorphii	Orectolobiformes	Orectolobidae	Orectolobus maculatus	320	YV	R	Ebert & Dando & Fowler 2021	Huveneers et al. 2007	Ceccarelli et al. 2014 & Ebert & Dando & Fowler 2021
+Galeomorphii	Orectolobiformes	Orectolobidae	Orectolobus ornatus	120	YV	R	Ebert & Dando & Fowler 2021	Huveneers et al. 2007	Ceccarelli et al. 2014 & Carraro & Gladstone 2006
+Galeomorphii	Orectolobiformes	Orectolobidae	Orectolobus parvimaculatus	94	NA	R	Last & Childow 2008	NA	Last & Childow 2008
+Galeomorphii	Orectolobiformes	Orectolobidae	Orectolobus reticulatus	52	NA	R	Last & Pogonoski & White 2008	NA	Corrigan & Huveneers, 2015
+Galeomorphii	Orectolobiformes	Orectolobidae	Orectolobus wardi	63	NA	R	Ebert & Dando & Fowler 2021	NA	Ceccarelli et al. 2014 & Huveneers & Corrigan & Pillans 2015 & Ebert & Dando & Fowler 2021
+Squalomorphii	Squaliformes	Somniosidae	Oxynotus bruniensis	76	YV	D	Finucci et al. 2016	Finucci et al. 2016	Ebert & Dando & Fowler 2021
+Squalomorphii	Squaliformes	Somniosidae	Oxynotus caribbaeus	150	NA	D	Ebert & Dando & Fowler 2021	NA	Messing et al. 2013
+Squalomorphii	Squaliformes	Somniosidae	Oxynotus centrina	150	YV	D	Ebert & Dando & Fowler 2021	Capapé & Seck & Quignard 1999	Ebert & Dando & Fowler 2021
+Squalomorphii	Squaliformes	Somniosidae	Oxynotus japonicus	65	NA	D	Yano & Matsuura & Tsukada 2002	NA	Yano & Murofushi 1985
+Squalomorphii	Squaliformes	Somniosidae	Oxynotus paradoxus	118	NA	D	Ebert & Dando & Fowler 2021	NA	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Hemigaleidae	Paragaleus leucolomatus	96	PV	IS	Compagno & Smale 1985	Compagno & Smale 1985	Compagno & Smale 1985 & Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Hemigaleidae	Paragaleus pectoralis	138	PV	IS	Ebert & Dando & Fowler 2021	Capapé et al. 2005	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Hemigaleidae	Paragaleus randalli	84	PV	IS	Moore et al. 2012	Compagno & Krupp & Carpenter 1996	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Hemigaleidae	Paragaleus tengi	93	NA	IS	White & Harris 2013	NA	Ebert & Dando & Fowler 2021
+Galeomorphii	Orectolobiformes	Parascylliidae	Parascyllium collare	87	NA	R	Ebert & Dando & Fowler 2021	NA	Ebert & Dando & Fowler 2021
+Galeomorphii	Orectolobiformes	Parascylliidae	Parascyllium elongatum	42	NA	NA	Last & Stevens 2008	NA	NA
+Galeomorphii	Orectolobiformes	Parascylliidae	Parascyllium ferrugineum	82	O	IS	Ebert & Dando & Fowler 2021	Whitley 1944	Ebert & Dando & Fowler 2021
+Galeomorphii	Orectolobiformes	Parascylliidae	Parascyllium sparsimaculatum	78	NA	D	Goto & Last 2002	NA	Goto & Last 2002
+Galeomorphii	Orectolobiformes	Parascylliidae	Parascyllium variolatum	91	O	IS	Ebert & Dando & Fowler 2021	Caruso & Bor 2007	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Pentanchidae	Parmaturus albimarginatus	58	NA	D	Séret & Last 2007	NA	Séret & Last 2007
+Galeomorphii	Carcharhiniformes	Pentanchidae	Parmaturus albipenis	42	NA	D	Séret & Last 2007	NA	Séret & Last 2007
+Galeomorphii	Carcharhiniformes	Pentanchidae	Parmaturus angelae	43	O	D	Soares et al. 2019	Soares et al. 2019	Soares et al. 2019
+Galeomorphii	Carcharhiniformes	Pentanchidae	Parmaturus bigus	71	O	D	Séret & Last 2007	Séret & Last 2007	Séret & Last 2007
+Galeomorphii	Carcharhiniformes	Pentanchidae	Parmaturus campechiensis	16	NA	D	Springer 1979	NA	Springer 1979
+Galeomorphii	Carcharhiniformes	Pentanchidae	Parmaturus macmillani	53	NA	D	Ebert & Dando & Fowler 2021	NA	Hardy 1985
+Galeomorphii	Carcharhiniformes	Pentanchidae	Parmaturus melanobranchus	85	NA	D	Ebert & Dando & Fowler 2021	NA	Chan 1966
+Galeomorphii	Carcharhiniformes	Pentanchidae	Parmaturus nigripalatum	55	NA	NA	Fahmi & Ebert 2018	NA	Fahmi & Ebert 2018
+Galeomorphii	Carcharhiniformes	Pentanchidae	Parmaturus pilosus	64	O	D	Springer 1979	Hsu et al. 2013	Hsu et al. 2013 & Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Pentanchidae	Parmaturus xaniurus	61	O	D	Ebert & Dando & Fowler 2021	Flammang et al. 2007	Cross 1988
+Galeomorphii	Carcharhiniformes	Pseudotriakidae	Planonasus indicus	64	NA	D	Ebert & Akhilesh & Weigmann 2019	NA	Ebert & Akhilesh & Weigmann 2019
+Galeomorphii	Carcharhiniformes	Pseudotriakidae	Planonasus parini	55	NA	D	Ebert & de Silva & Goonewardena 2017	NA	Weigmann & Stehmann & Thiel 2013
+Squalomorphii	Pristiophoriformes	Pristiophoridae	Pliotrema annae	98	YV	R	Weigmann et al. 2020	Weigmann et al. 2020	Weigmann et al. 2020
+Squalomorphii	Pristiophoriformes	Pristiophoridae	Pliotrema kajae	143	YV	D	Weigmann et al. 2020	Weigmann et al. 2020	Weigmann et al. 2020
+Squalomorphii	Pristiophoriformes	Pristiophoridae	Pliotrema warreni	136	YV	OS	Ebert & Dando & Fowler 2021	Foor 2017	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Scyliorhinidae	Poroderma africanum	109	O	OS	Ebert & Dando & Fowler 2021	von Bonde 1948	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Scyliorhinidae	Poroderma pantherinum	77	O	OS	Ebert & Dando & Fowler 2021	Pretorius & Griffiths 2013	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Prionace glauca	384	PV	O	Ebert & Dando & Fowler 2021	Calzoni 1936	Nakano & Stevens 2008 & Ceccarelli et al. 2014
+Squalomorphii	Pristiophoriformes	Pristiophoridae	Pristiophorus cirratus	149	YV	OS	Ebert & Dando & Fowler 2021	Nevatte & Williamson & Gillings 2023	Ebert & Dando & Fowler 2021
+Squalomorphii	Pristiophoriformes	Pristiophoridae	Pristiophorus delicatus	85	NA	D	Yearsley & Last & White 2008	NA	Yearsley & Last & White 2008 & Ceccarelli et al. 2014
+Squalomorphii	Pristiophoriformes	Pristiophoridae	Pristiophorus japonicus	153	YV	OS	Ebert & Dando & Fowler 2021	Saito and Mori 2009	Rigby et al. 2021
+Squalomorphii	Pristiophoriformes	Pristiophoridae	Pristiophorus lanae	83	NA	D	Ebert & Wilms 2013	NA	Ebert & Wilms 2013
+Squalomorphii	Pristiophoriformes	Pristiophoridae	Pristiophorus nancyae	62	NA	D	Ebert & Cailliet 2011	NA	Ebert & Cailliet 2011
+Squalomorphii	Pristiophoriformes	Pristiophoridae	Pristiophorus nudipinnis	124	YV	OS	Ebert & Dando & Fowler 2021	Nevatte & Williamson & Gillings 2023	Ebert & Dando & Fowler 2021
+Squalomorphii	Pristiophoriformes	Pristiophoridae	Pristiophorus schroederi	87	NA	D	Ebert & Dando & Fowler 2021	NA	Springer & Bullis 1960
+Galeomorphii	Carcharhiniformes	Proscyllidae	Proscyllium habereri	65	NA	OS	Ebert & Dando & Fowler 2021	NA	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Proscyllidae	Proscyllium magnificum	49	NA	OS	Last & Vongpanich 2004	NA	Last & Vongpanich 2004
+Galeomorphii	Carcharhiniformes	Proscyllidae	Proscyllium venustum	60	O	IS	Nabako 2002	Tanaka 1915	Nabako 2002
+Galeomorphii	Lamniformes	Pseudocarchariidae	Pseudocarcharias kamoharai	122	Oo	O	Oliveira et al. 2010	Fujita 1981 & Oliveira et al. 2010 & Calle-Morán & Aragón-Noriega, 2023	Romanov et al. 2008 & Ceccarelli et al. 2014
+Galeomorphii	Orectolobiformes	Ginglymostomatidae	Pseudoginglymostoma brevicaudatum	75	NA	R	Ebert & Dando & Fowler 2021	NA	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Pseudotriakidae	Pseudotriakis microdon	296	Oo	D	Yano 1992	Yano 1992	Ceccarelli et al. 2014
+Galeomorphii	Orectolobiformes	Ginglymostomatidae	Rhincodon typus	2000	YV	O	Chen & Liu & Young 1999	Joung et al. 1996	Ceccarelli et al. 2014
+Squalomorphii	Squaliformes	Somniosidae	Rhinoscymnus cheni	134	YV	D	Hsu & Lin & Joung 2020	Hsu & Lin & Joung 2020	Hsu & Lin & Joung 2020
+Squalomorphii	Squaliformes	Somniosidae	Rhinoscymnus longus	143	NA	D	Francis & Stevens & Last 1988	NA	Ebert & Dando & Fowler 2021
+Squalomorphii	Squaliformes	Somniosidae	Rhinoscymnus rostratus	143	YV	D	Ebert & Dando & Fowler 2021	Barrull & Mate 2001	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Rhizoprionodon acutus	178	PV	IS	Ebert & Dando & Fowler 2021	Capapé et al. 2006	Ceccarelli et al. 2014
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Rhizoprionodon lalandii	102	PV	IS	Ebert & Dando & Fowler 2021	Motta et al. 2007	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Rhizoprionodon longurio	154	PV	IS	Ebert & Dando & Fowler 2021	Frías-Espericueta et al. 2014	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Rhizoprionodon oligolinx	93	PV	IS	Purushottama et al. 2017	Purushottama et al. 2017	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Rhizoprionodon porosus	110	PV	IS	Ebert & Dando & Fowler 2021	Garzón‐Peña et al. 2021	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Rhizoprionodon taylori	88	PV	IS	Ebert & Dando & Fowler 2021	Buddle et al. 2021	Ceccarelli et al. 2014 & Heupel et al. 2019
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Rhizoprionodon terraenovae	113	PV	IS	Ebert & Dando & Fowler 2021	Castro & Wourms 1993	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Atelomycteridae	Schroederichthys bivius	81	O	OS	Colonello & Cortés & Belleggia 2020	Springer 1979	Colonello & Cortés & Belleggia 2020 & Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Atelomycteridae	Schroederichthys chilensis	70	O	IS	Ebert & Dando & Fowler 2021	Soto 2001d	Fariña & Ojeda 1993 & Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Atelomycteridae	Schroederichthys maculatus	34	O	D	Soares & Zanini 2023	Springer 1979	Ebert & Dando & Fowler 2021 & Soares & Zanini 2023
+Galeomorphii	Carcharhiniformes	Atelomycteridae	Schroederichthys saurisqualus	69	O	D	Soto 2001d	Soto 2001d	Ebert & Dando & Fowler 2021 
+Galeomorphii	Carcharhiniformes	Atelomycteridae	Schroederichthys tenuis	69	O	D	Gomes et al. 2006	Gomes & de Carvalho 1995	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Scoliodon laticaudus	74	PV	IS	Ebert & Dando & Fowler 2021	Devadoss 1988	Joseph & Devaraj 1997 & Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Scoliodon macrorhynchos	71	PV	IS	Ebert & Dando & Fowler 2021	Chen & Qiu 2000	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Scyliorhinidae	Scyliorhinus boa	54	O	D	Springer 1979	Cox & Koob 1993	Springer 1979 & Kiraly et al. 2003
+Galeomorphii	Carcharhiniformes	Scyliorhinidae	Scyliorhinus cabofriensis	47	NA	D	Soares & Gomes & De Carvalho 2016	NA	Soares & Gomes & De Carvalho 2016
+Galeomorphii	Carcharhiniformes	Scyliorhinidae	Scyliorhinus canicula	80	O	OS	Ellis et al. 2005	Gordon & Hood & Ellis 2016	Ellis et al. 2009 & Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Scyliorhinidae	Scyliorhinus capensis	122	O	OS	Ebert & Dando & Fowler 2021	Ebert & Compagno & Cowley 2006	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Scyliorhinidae	Scyliorhinus cervigoni	76	O	OS	Ebert & Dando & Fowler 2021	Soares & De Carvalho 2019	Soares & De Carvalho 2019
+Galeomorphii	Carcharhiniformes	Scyliorhinidae	Scyliorhinus comoroensis	46	NA	D	Compagno 1988b	NA	Compagno 1988b
+Galeomorphii	Carcharhiniformes	Scyliorhinidae	Scyliorhinus duhamelii	44	NA	OS	Soares & De Carvalho 2019	NA	Soares & De Carvalho 2019
+Galeomorphii	Carcharhiniformes	Scyliorhinidae	Scyliorhinus garmani	38	NA	NA	Ebert & Dando & Fowler 2021	NA	NA
+Galeomorphii	Carcharhiniformes	Scyliorhinidae	Scyliorhinus hachijoensis	42	O	D	Ito et al. 2022	Ito et al. 2022	Ito et al. 2022
+Galeomorphii	Carcharhiniformes	Scyliorhinidae	Scyliorhinus haeckelii	57	O	D	Soares & Gomes & De Carvalho 2016	Gomes & de Carvalho 1995	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Scyliorhinidae	Scyliorhinus hesperius	47	NA	D	Springer 1966	NA	Springer 1966
+Galeomorphii	Carcharhiniformes	Scyliorhinidae	Scyliorhinus meadi	76	NA	D	Ebert & Dando & Fowler 2021	NA	Kiraly et al. 2003
+Galeomorphii	Carcharhiniformes	Scyliorhinidae	Scyliorhinus retifer	59	O	OS	Soares & De Carvalho 2019	Castro & Bubucis & Overstrom 1988	Able & Flescher 1991
+Galeomorphii	Carcharhiniformes	Scyliorhinidae	Scyliorhinus stellaris	190	O	IS	Soares & De Carvalho 2019	Gordon & Hood & Ellis 2016	Soares & De Carvalho 2019
+Galeomorphii	Carcharhiniformes	Scyliorhinidae	Scyliorhinus torazame	78	O	OS	Soares & De Carvalho 2019	Nakaya 1975	Soares & De Carvalho 2019 & Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Scyliorhinidae	Scyliorhinus torrei	32	NA	D	Ebert & Dando & Fowler 2021	NA	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Scyliorhinidae	Scyliorhinus ugoi	63	O	D	Soares & Gadig & Gomes 2015	Soares & Gadig & Gomes 2015	Soares & Gadig & Gomes 2015
+Galeomorphii	Carcharhiniformes	Triakidae	Scylliogaleus quecketti	102	NA	IS	Ebert & Dando & Fowler 2021	NA	Ebert & Dando & Fowler 2021
+Squalomorphii	Squaliformes	Somniosidae	Scymnodalatias albicauda	111	YV	D	Nakaya & Nakano 1995	Nakaya & Nakano 1995	Taniuchi & Garrick 1985
+Squalomorphii	Squaliformes	Somniosidae	Scymnodalatias garricki	41	NA	D	Kukuev 2006	NA	Kukuev 2006
+Squalomorphii	Squaliformes	Somniosidae	Scymnodalatias oligodon	26	NA	D	Kukuev & Konovalenko 1988	NA	Kukuev & Konovalenko 1988
+Squalomorphii	Squaliformes	Somniosidae	Scymnodalatias sherwoodi	85	NA	D	Ebert & Dando & Fowler 2021	NA	Ebert & Dando & Fowler 2021
+Squalomorphii	Squaliformes	Somniosidae	Scymnodon ichiharai	151	NA	D	White et al. 2015b	NA	White et al. 2015b
+Squalomorphii	Squaliformes	Somniosidae	Scymnodon macracanthus	170	YV	D	Ebert & Dando & Fowler 2021	Pethybridge et al. 2011	Ebert & Dando & Fowler 2021
+Squalomorphii	Squaliformes	Somniosidae	Scymnodon obscurus	70	NA	NA	NA	NA	NA
+Squalomorphii	Squaliformes	Somniosidae	Scymnodon ringens	110	NA	D	Ruiz-Pico et al. 2014	NA	Ruiz-Pico et al. 2014
+Squalomorphii	Squaliformes	Somniosidae	Somniosus microcephalus	756	YV	D	Ebert & Dando & Fowler 2021	Nielsen et al. 2020	MacNeil et al. 2012
+Squalomorphii	Squaliformes	Somniosidae	Somniosus pacificus	700	NA	D	Ebert & Dando & Fowler 2021	NA	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Sphyrnidae	Sphyrna corona	120	PV	IS	Orozco 2014	Orozco 2014	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Sphyrnidae	Sphyrna lewini	430	PV	O	Thomas et al. 2021	Crow & Lowe & Wetherbee 1996	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Sphyrnidae	Sphyrna media	150	NA	IS	Ebert & Dando & Fowler 2021	NA	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Sphyrnidae	Sphyrna mokarran	610	PV	O	Ebert & Dando & Fowler 2021	Clark & Von Schmidt 1965	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Sphyrnidae	Sphyrna tiburo	150	PV	IS	Ebert & Dando & Fowler 2021	Manire et al. 1995	Cortes & Manire & Hueter 1996
+Galeomorphii	Carcharhiniformes	Sphyrnidae	Sphyrna tudes	148	PV	IS	Ebert & Dando & Fowler 2021	Castro 1989	Giglio & Bornatowski 2016
+Galeomorphii	Carcharhiniformes	Sphyrnidae	Sphyrna zygaena	445	PV	O	Ebert & Dando & Fowler 2021	Crow & Lowe & Wetherbee 1996	Clarke et al. 2015
+Squalomorphii	Squaliformes	Dalatiidae	Squaliolus aliae	24	NA	D	Seigel 1978	NA	Seigel 1978
+Squalomorphii	Squaliformes	Dalatiidae	Squaliolus laticaudus	28	YV	D	Silva et al. 1998	Cunha & Gonzalez 2006 & Driggers et al. 2010	Ebert & Dando & Fowler 2021 & Das et al. 2022
+Squalomorphii	Squaliformes	Squalidae	Squalus acanthias	200	YV	OS	Ebert & Dando & Fowler 2021	Hamlett & Hysell 1998	Stehlik 2007
+Squalomorphii	Squaliformes	Squalidae	Squalus acutipinnis	77	NA	OS	Ebert & Dando & Fowler 2021	NA	Ebert & Dando & Fowler 2021
+Squalomorphii	Squaliformes	Squalidae	Squalus albicaudus	61	NA	D	Viana & De Carvalho & Gomes 2016	NA	Ebert & Dando & Fowler 2021
+Squalomorphii	Squaliformes	Squalidae	Squalus albifrons	84	NA	D	Last & White & Stevens 2007	NA	Last & White & Stevens 2007
+Squalomorphii	Squaliformes	Squalidae	Squalus altipinnis	59	NA	D	Last & White & Stevens 2007	NA	Last & White & Stevens 2007
+Squalomorphii	Squaliformes	Squalidae	Squalus bahiensis	69	NA	D	Viana & De Carvalho & Gomes 2016	NA	Viana & De Carvalho & Gomes 2016
+Squalomorphii	Squaliformes	Squalidae	Squalus bassi	110	NA	D	Viana & De Carvalho & Ebert 2017	NA	Viana & De Carvalho & Ebert 2017
+Squalomorphii	Squaliformes	Squalidae	Squalus blainvillei	92	YV	D	Ebert & Dando & Fowler 2021	Kousteni & Megalofonou 2011	Ebert & Dando & Fowler 2021
+Squalomorphii	Squaliformes	Squalidae	Squalus boretzi	95	NA	D	Dolganov 2019b	NA	Dolganov 2019b
+Squalomorphii	Squaliformes	Squalidae	Squalus brevirostris	59	NA	OS	Duffy & Last 2007	NA	Duffy & Last 2007
+Squalomorphii	Squaliformes	Squalidae	Squalus bucephalus	81	NA	D	Last & Séret & Pogonoski 2007	NA	Last & Séret & Pogonoski 2007
+Squalomorphii	Squaliformes	Squalidae	Squalus chloroculus	86	YV	D	Last & White & Motomura 2007	Rochowski et al. 2015	Last & White & Motomura 2007
+Squalomorphii	Squaliformes	Squalidae	Squalus clarkae	72	NA	D	Pfelger et al. 2018	NA	Pfelger et al. 2018
+Squalomorphii	Squaliformes	Squalidae	Squalus crassispinus	58	NA	D	Last & Edmunds & Yearsley 2007	NA	Last & Edmunds & Yearsley 2007
+Squalomorphii	Squaliformes	Squalidae	Squalus cubensis	110	YV	OS	Ebert & Dando & Fowler 2021	Tagliafico & Rangel & Broadhurst 2019	Ebert & Dando & Fowler 2021
+Squalomorphii	Squaliformes	Squalidae	Squalus edmundsi	112	YV	D	Fahmi & Sentosa 2017	Fahmi & Sentosa 2017	White & Last & Stevens 2007a
+Squalomorphii	Squaliformes	Squalidae	Squalus formosus	81	NA	D	White & Iglésias 2011	NA	Ebert & Dando & Fowler 2021
+Squalomorphii	Squaliformes	Squalidae	Squalus grahami	71	NA	D	White & Last & Stevens 2007a	NA	White & Last & Stevens 2007a
+Squalomorphii	Squaliformes	Squalidae	Squalus griffini	110	YV	OS	Duffy & Last 2007	Duffy & Last 2007	Duffy & Last 2007 & Ebert & Dando & Fowler 2021
+Squalomorphii	Squaliformes	Squalidae	Squalus hawaiiensis	101	YV	D	Cotton et al. 2011 & Daly-Engel et al. 2018	Cotton et al. 2011 & Daly-Engel et al. 2018	Cotton et al. 2011 & Daly-Engel et al. 2018
+Squalomorphii	Squaliformes	Squalidae	Squalus hemipinnis	78	YV	OS	White & Last & Yearsley 2007	White & Last & Yearsley 2007	White & Last & Yearsley 2007
+Squalomorphii	Squaliformes	Squalidae	Squalus japonicus	95	YV	OS	Ebert & Dando & Fowler 2021	Chen & Taniuchi & Nose 1981	Ebert & Dando & Fowler 2021
+Squalomorphii	Squaliformes	Squalidae	Squalus lalannei	79	NA	D	Baranes 2003	NA	Baranes 2003
+Squalomorphii	Squaliformes	Squalidae	Squalus lobularis	73	NA	NA	Viana & De Carvalho & Gomes 2016	NA	NA
+Squalomorphii	Squaliformes	Squalidae	Squalus longispinnis	73	YV	D	Fricke et al., 2023	Fricke et al., 2023	Fricke et al., 2023
+Squalomorphii	Squaliformes	Squalidae	Squalus mahia	59	NA	D	Viana & Lisher & de Carvalho 2017	NA	Viana & Lisher & de Carvalho 2017
+Squalomorphii	Squaliformes	Squalidae	Squalus margaretsmithae	54	NA	D	Viana & Lisher & de Carvalho 2017	NA	Viana & Lisher & de Carvalho 2017
+Squalomorphii	Squaliformes	Squalidae	Squalus megalops	89	YV	OS	Ebert & Dando & Fowler 2021	Pethybridge et al. 2011	Bernardes et al. 2005
+Squalomorphii	Squaliformes	Squalidae	Squalus melanurus	75	NA	D	Viana & de Carvalho 2018	NA	Ebert et al. 2021
+Squalomorphii	Squaliformes	Squalidae	Squalus mitsukurii	125	YV	OS	Ebert & Dando & Fowler 2021	Wilson & Seki 1995	Taniuchi & Tachikawa 1997
+Squalomorphii	Squaliformes	Squalidae	Squalus montalbani	95	YV	OS	Last & White & Motomura 2007	White & Dharmadi 2010	Last & White & Motomura 2007
+Squalomorphii	Squaliformes	Squalidae	Squalus nasutus	59	NA	D	Lindsay & Marshall & White 2007	NA	Lindsay & Marshall & White 2007
+Squalomorphii	Squaliformes	Squalidae	Squalus notocaudatus	62	NA	D	Last & White & Stevens 2007	NA	Last & White & Stevens 2007
+Squalomorphii	Squaliformes	Squalidae	Squalus probatovi	79	NA	D	Viana & de Carvalho 2018	NA	Viana & de Carvalho 2018
+Squalomorphii	Squaliformes	Squalidae	Squalus quasimodo	93	YV	NA	Tagliafico & Rangel & Broadhurst 2019	Tagliafico & Rangel & Broadhurst 2019	NA
+Squalomorphii	Squaliformes	Squalidae	Squalus raoulensis	73	NA	D	Duffy & Last 2007	NA	Duffy & Last 2007
+Squalomorphii	Squaliformes	Squalidae	Squalus shiraii	77	NA	D	Viana & de Carvalho 2020	NA	Viana & de Carvalho 2020
+Squalomorphii	Squaliformes	Squalidae	Squalus suckleyi	150	YV	OS	Ebert & Dando & Fowler 2021	Tribuzio & Kruse 2012	Ebert & Dando & Fowler 2021
+Squalomorphii	Squatiniformes	Squatinidae	Squatina aculeata	188	YV	OS	Ebert & Dando & Fowler 2021	Capapé 2005	Yano & Tanaka 1988 & Ebert & Dando & Fowler 2021
+Squalomorphii	Squatiniformes	Squatinidae	Squatina africana	122	YV	OS	Ebert & Dando & Fowler 2021	Shelmerdine & Cliff 2006	Ebert & Dando & Fowler 2021
+Squalomorphii	Squatiniformes	Squatinidae	Squatina albipunctata	99	NA	OS	Last & White 2008	NA	NA
+Squalomorphii	Squatiniformes	Squatinidae	Squatina argentina	138	YV	OS	Vooren & Klippel 2005	Vooren & Klippel 2005	Ebert & Dando & Fowler 2021
+Squalomorphii	Squatiniformes	Squatinidae	Squatina armata	109	NA	OS	Velázquez-Chiquito 2021	NA	Ebert & Dando & Fowler 2021
+Squalomorphii	Squatiniformes	Squatinidae	Squatina australis	152	NA	OS	Ebert & Dando & Fowler 2021	NA	Ebert & Dando & Fowler 2021
+Squalomorphii	Squatiniformes	Squatinidae	Squatina caillieti	33	NA	OS	Walsh & Ebert & Compagno 2011	NA	Ebert & Dando & Fowler 2021
+Squalomorphii	Squatiniformes	Squatinidae	Squatina californica	175	YV	OS	Ebert & Dando & Fowler 2021	Natanson & Cailliet 1986	Ebert & Dando & Fowler 2021
+Squalomorphii	Squatiniformes	Squatinidae	Squatina david	79	NA	OS	Acero et al. 2016	NA	Acero et al. 2016
+Squalomorphii	Squatiniformes	Squatinidae	Squatina dumeril	152	YV	OS	Ebert & Dando & Fowler 2021	Baremore 2010	Ebert & Dando & Fowler 2021
+Squalomorphii	Squatiniformes	Squatinidae	Squatina formosa	55	NA	OS	Kriwet & Endo & Stelbrink 2010	NA	Kriwet & Endo & Stelbrink 2010
+Squalomorphii	Squatiniformes	Squatinidae	Squatina guggenheim	130	YV	OS	Vooren & Klippel 2005	Oddone & Capapé 2022	Vögler & Milessi & Quiñones 2003
+Squalomorphii	Squatiniformes	Squatinidae	Squatina heteroptera	49	NA	OS	Castro-Aguirre & Espinosa Pérez & Huidobro Campos (2007	NA	Castro-Aguirre & Espinosa Pérez & Huidobro Campos (2007
+Squalomorphii	Squatiniformes	Squatinidae	Squatina japonica	200	YV	OS	Ebert & Dando & Fowler 2021	Nagasawa & Tanaka & Benz 1998	Ebert & Dando & Fowler 2021
+Squalomorphii	Squatiniformes	Squatinidae	Squatina leae	87	YV	D	Weigmann et al. 2023	Weigmann et al. 2023	Weigmann et al. 2023
+Squalomorphii	Squatiniformes	Squatinidae	Squatina legnota	134	NA	OS	Last & White 2008	NA	Last & White 2008
+Squalomorphii	Squatiniformes	Squatinidae	Squatina mapama	40	NA	D	Long et al. 2021	NA	Long et al. 2021
+Squalomorphii	Squatiniformes	Squatinidae	Squatina mexicana	88	NA	OS	Castro-Aguirre & Espinosa Pérez & Huidobro Campos (2007)	NA	Castro-Aguirre & Espinosa Pérez & Huidobro Campos (2007)
+Squalomorphii	Squatiniformes	Squatinidae	Squatina nebulosa	200	YV	OS	Ebert & Dando & Fowler 2021	Nagasawa & Tanaka & Benz 1998	Ebert & Dando & Fowler 2021
+Squalomorphii	Squatiniformes	Squatinidae	Squatina occulta	120	YV	OS	Vaz & de Carvalho 2013	Vaz & de Carvalho 2013	Vaz & de Carvalho 2013
+Squalomorphii	Squatiniformes	Squatinidae	Squatina oculata	160	YV	OS	Ebert & Dando & Fowler 2021	Capapé & Quignard & Mellinger 1990	Ebert & Dando & Fowler 2021
+Squalomorphii	Squatiniformes	Squatinidae	Squatina pseudocellata	75	NA	OS	Last & White 2008	NA	Last & White 2008
+Squalomorphii	Squatiniformes	Squatinidae	Squatina punctata	91	YV	OS	Bernardes et al. 2005	Berndaes et al 2005	Bernardes et al. 2005
+Squalomorphii	Squatiniformes	Squatinidae	Squatina squatina	244	YV	OS	Ebert & Dando & Fowler 2021	Capapé & Quignard & Mellinger 1990	Ebert & Dando & Fowler 2021
+Squalomorphii	Squatiniformes	Squatinidae	Squatina tergocellata	140	YV	OS	Last & Stevens 1994	Bridge & Mackay & Newton 1998	Last & Stevens 1994 & Ebert et al. 2021
+Squalomorphii	Squatiniformes	Squatinidae	Squatina tergocellatoides	100	NA	OS	Theiss & Ebert 2013	NA	Theiss & Ebert 2013
+Squalomorphii	Squatiniformes	Squatinidae	Squatina varii	132	NA	OS	Vaz & De Carvalho 2018	NA	Vaz & De Carvalho 2018
+Galeomorphii	Orectolobiformes	Ginglymostomatidae	Stegostoma fasciatum	250	O	R	Ebert & Dando & Fowler 2021	Robinson et al. 2011	Ceccarelli et al. 2014 & Ebert & Dando & Fowler 2021
+Galeomorphii	Orectolobiformes	Orectolobidae	Sutorectus tentaculatus	92	YV	R	Ebert & Dando & Fowler 2021	Chidlow 2003	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Carcharhinidae	Triaenodon obesus	213	PV	R	Ebert & Dando & Fowler 2021	Schaller & Aquarium & Park 2004	Ceccarelli et al. 2014 & Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Triakidae	Triakis acutipinna	102	NA	IS	Kato 1968	NA	Cevallos-Garcias et al. 2022
+Galeomorphii	Carcharhiniformes	Triakidae	Triakis maculata	180	NA	IS	Ebert & Dando & Fowler 2021	NA	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Triakidae	Triakis megalopterus	208	YV	IS	Ebert & Dando & Fowler 2021	Smale & Gosen 1999	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Triakidae	Triakis scyllium	150	YV	IS	Fujinami & Tanaka 2013	Fujinami & Tanaka 2013	Ebert & Dando & Fowler 2021
+Galeomorphii	Carcharhiniformes	Triakidae	Triakis semifasciata	210	YV	IS	Ebert & Dando & Fowler 2021	Ebert & Ebert 2005	Ebert & Dando & Fowler 2021
+Squalomorphii	Squaliformes	Etmopteridae	Trigonognathus kabeyai	54	YV	D	Yano et al. 2003	Yano et al. 2003	Yano et al. 2003
+Squalomorphii	Squaliformes	Somniosidae	Zameus squamulosus	84	YV	D	Crow et al. 2018	Crow et al. 2018	Crow et al. 2018
