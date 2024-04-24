@@ -31,9 +31,9 @@
 
 ## 1 Modeling trait evolution
 
-`package requirement (corHMM, mclust, string, phytools, qpcR, ggtree, secsse)`
+`package requirement (corHMM, mclust, string, phytools, qpcR, ggtree, secsse, ggtree, phytools, treedataverse, RColorBrewer, ggplot2, ggpmisc, optional(stringr))`
 
-`used script (corHMM-Consensus-tree.r; corHMM-Consensus-tree-Diet.r; corHMM_ASE_script.r)`
+`used script (corHMM.r; corHMM_Diet.r; Plot_ASE.r)`
 
 <p align="justify">  The purpose of this analysis is twofold. First, we want to test how traits evolved and what evolutionary scenario they followed. Second, using corHMM output we will perform which can be later compared with the ancestral state estimation from SecSSE</p>
 
@@ -61,9 +61,9 @@ Lastly, one may be interested in estimating the ancestral condition of his clade
 
 ## 2 Diversification analyses
 
-`package requirement (ape, mclust, secsse, DDD, tidyverse, parallel, qgraph, optional(stringr))`
+`package requirement (ape, mclust, secsse, DDD, tidyverse, parallel, qgraph, ggtree, phytools, treedataverse, RColorBrewer, ggplot2, ggpmisc, optional(stringr))`
 
-`used script (SecSSE_bds.r/SecSSE_rp.r/SecSSE_ht.r/SecSSE_diet.r)`
+`used script (SecSSE_Size.r; SecSSE_Reproduction.r; SecSSE_Habitat.r; SecSSE_Diet.r; SecSSE_ASE.r; Plot_ASE.r)`
 
 <p align="justify"> Now that we pictured trait evolution dynamics, we may want to assess whether our examined traits are responsible for extant diversity patterns or not. To do so we rely on SSE models (State-dependent speciation and extinction models), which are well-known for accounting for the impact that trait evolution has on patterns of lineage diversification. However, accounting for trait-dependent diversification is subject to numerous methodological biases (Beaulieu and Donoghue, 2013). Indeed, SSE models can falsely indicate an effect of the focal trait on diversification. Models with hidden traits (aka concealed traits), such as SeCSSE (Herrera-Alsina et al., 2019) or HiSSE (Beaulieu and O'Meara, 2016) can account for hidden variables in trait-dependant diversification. Thus, we will be using SecSSE, an SSE implementation for detecting trait-dependent diversification using phylogenies on multi-state characters, while being robust to false-postive. </p>
 
@@ -72,7 +72,6 @@ Lastly, one may be interested in estimating the ancestral condition of his clade
 <p align="justify"> Highly similar to corHMM, we will first need to discretise our continuous traits and clean our data. However, unlike corHMM, SecSSE estimates jointly transition rates and diversification rates (speciation and extinction). This is both a good thing, as it has been shown that accounting for diversification allows for better estimation of trait evolution (Maddison, 2006), and a bad thing as it dramatically increases the number of parameters in our analyses. Over-parametrization is a common issue in statistics, but it has not often been addressed in macroevolution studies. Here, we want to avoid this as much as possible by limiting the upper number of estimated parameters. To do so, we kept the structure of the best-fitting corHMM model for each trait, while still estimating its transition rates. Namely, if the best-fitting model for reproduction is a two-rate sequential symmetrical model, we will forbid direct transition from A to C, while constraining transitions from A to B to be equal to B to A. To minimize the effect of structuration on the output of the model, we kept the same structure of the transition matrix across all variants for each trait.
 
 For each trait, we constructed seven models, one for constant rates (CR), three for examined-trait diversification (ETD) and three for concealed-trait diversification (CTD). The three variants for CTD and ETD models include a pure speciation model (different speciation for each state, one shared extinction), a pure extinction model (different extinction for each state, one shared speciation) and a net diversification model (different speciation and extinction for each state). For each of the seven models to avoid finding a local optimum, following Herrera-Alsina et al. (2019), we used three sets of initial parameters. One set was estimated using the standard birth-death model (bd_ML function in the R package “DDD” 5.2.2; Etienne et al., 2012), one was halved, and the other was doubled.
-
 </p>
 
 ### 2.2 Running and selecting the likeliest model
@@ -86,9 +85,9 @@ For each trait, we constructed seven models, one for constant rates (CR), three 
 
 ## 3 Sensitivity analyses 
 
-`package requirement (ape, mclust, secsse, DDD, tidyverse, parallel, qgraph, optional(stringr))`
+`package requirement (ape, mclust, secsse, DDD, tidyverse, parallel, qgraph, tidyverse, ggpubr, rstatix, optional(string))`
 
-`used script (SecSSE_bds.r/SecSSE_rp.r/SecSSE_ht.r)`
+`used script (corHMM.r; corHMM_Diet.r; SecSSE_Size.r; SecSSE_Reproduction.r; SecSSE_Habitat.r; SecSSE_Diet.r; Posterior_test_comparative_analysis.r)`
 
 <p align="justify"> Both trait-dependent evolution and diversification model require phylogeny. However, phylogenetic trees are hypotheses. We accounted for both phylogenetic and dating uncertainty by performing sensitivity analyses on the first 100 trees extracted from the posterior distribution of the BEAST analysis. We analyzed whether we could reliably recover the best-fitting model for each trait and analysis (corHMM, SecSSE) by performing a non-parametric alternative of the repeated measure ANOVA (Friedman test) comparing the AICc of each model and then performing pairwise comparisons of each model with a paired signed-rank Wilcoxon test using the R package “rstatix” (Kassambara, 2023) where we reported the T statistic and p-value.   </p>
 
