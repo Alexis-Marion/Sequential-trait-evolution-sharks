@@ -55,10 +55,6 @@ However, such models may not be adequate when testing specific evolutionary scen
 
 Lastly, one may be interested in estimating the ancestral condition of his clade of interest. Fortunately, corHMM jointly estimates transition rates and ancestral states, thus it is pretty easy to extract these values and plot directly on the phylogeny. To do this, we must use *corHMM_ASE_script.r*. While it is pretty easy to estimate them, ancestral state estimations are and remain **estimations**, thus one should always interpret them with utmost care.
 
-<p align="center">
-    <img src="ASE_BDS.png" \>
-</p>
-
 ## 2 Diversification analyses
 
 `package requirement (ape, mclust, secsse, DDD, tidyverse, parallel, qgraph, ggtree, phytools, treedataverse, RColorBrewer, ggplot2, ggpmisc, optional(stringr))`
