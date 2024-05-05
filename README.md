@@ -58,7 +58,7 @@ Lastly, one may be interested in estimating the ancestral condition of his clade
 
 ## 2 Diversification analyses
 
-`package requirement (ape, mclust, secsse, DDD, tidyverse, parallel, qgraph, ggtree, phytools, treedataverse, RColorBrewer, ggplot2, ggpmisc, optional(stringr))`
+`package requirement (ape, mclust, secsse, DDD, tidyverse, qgraph, ggtree, phytools, treedataverse, RColorBrewer, ggplot2, ggpmisc, optional(stringr))`
 
 `used script (SecSSE_Size.r; SecSSE_Reproduction.r; SecSSE_Habitat.r; SecSSE_Diet.r; SecSSE_ASE.r; Plot_ASE.r)`
 
@@ -82,7 +82,7 @@ For each trait, we constructed seven models, one for constant rates (CR), three 
 
 ## 3 Sensitivity analyses 
 
-`package requirement (ape, mclust, secsse, DDD, tidyverse, parallel, qgraph, tidyverse, ggpubr, rstatix, optional(string))`
+`package requirement (ape, mclust, secsse, DDD, tidyverse, qgraph, tidyverse, ggpubr, rstatix, optional(string))`
 
 `used script (corHMM.r; corHMM_Diet.r; SecSSE_Size.r; SecSSE_Reproduction.r; SecSSE_Habitat.r; SecSSE_Diet.r; Posterior_test_comparative_analysis.r)`
 
