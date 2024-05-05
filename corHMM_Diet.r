@@ -9,13 +9,15 @@ df<-read.table("table_data_diet.tsv", header = TRUE)
 
 df$Species<-str_replace((df$Species), " ", "_")
 
-states<-cbind(c(str_replace((df$Species), " ", "_"), setdiff(phy$tip.label, str_replace((df$Species), " ", "_"))), c(df$Diet, rep("?", length(setdiff(phy$tip.label, str_replace((df$Species), " ", "_"))))))
+states<-cbind(c(str_replace((df$Species), " ", "_"), setdiff(phy$tip.label, str_replace((df$Species), " ", "_"))), c(df$traits, rep("?", length(setdiff(phy$tip.label, str_replace((df$Species), " ", "_"))))))
 
 states_traits<-as.data.frame(states[!states[,1] %in% setdiff(states[,1], phy$tip.label),])
 
 colnames(states_traits)<-c("Species", "Diet")
 
 states_traits<-states_traits[match(phy$tip.label,states_traits[,1]),]
+
+states_traits[is.na(states_traits)]<-"?"
 
 states_traits<-states_traits[,c(1,2)]
 LegendAndRateMat <- getStateMat4Dat(states_traits)
