@@ -27,7 +27,7 @@
 
 **3**: Sensitivity analyses
 
-<p align="justify"> Example data used for our article are available at "figshare.com".</p>
+<p align="justify"> Data from Marion et al., (2024) are available here "10.6084/m9.figshare.24581718".</p>
 
 ## 1 Modeling trait evolution
 
@@ -35,15 +35,15 @@
 
 `used script (corHMM.r; corHMM_Diet.r; Plot_ASE.r)`
 
-<p align="justify">  The purpose of this analysis is twofold. First, we want to test how traits evolved and what evolutionary scenario they followed. Second, using corHMM output we will perform which can be later compared with the ancestral state estimation from SecSSE</p>
+<p align="justify">  The purpose of this analysis is twofold. First, we want to test how traits evolved and what evolutionary scenario they followed. Second, we performed ancestral state estimation which can be later compared with the ancestral state estimation from SecSSE. In this section, we will be using the corHMM package version 2.8 (Boyko & Beaulieu, 2021)</p>
 
 ### 1.1 Data cleaning and model construction
 
-<p align="justify"> The first step in any comparative analysis is to clean and prepare the trait data. To do so, we must extract and isolate such values in a vector. As maximum body-size is a continuous character, we may want to discretize it. In this script, we use a Gaussian mixture model with the mclust function of the mclust package to cluster continuous data. This package automatically selects the most likely or a user-specified  number of groups. Then, we name each trait value according to its species name.
+<p align="justify"> The first step in any comparative analysis is to clean and prepare the trait data. To do so, we must extract and isolate such values in a vector. As maximum body-size is a continuous character, we may want to discretize it. In this script, we use a Gaussian mixture model with the mclust function of the mclust (Fraley et al., 2012) package to cluster continuous data. This package automatically selects the most likely or a user-specified  number of groups. Then, we name each trait value according to its species name.
 
 The second step is to build the actual evolutionary model we want to test. Usually, three models are tested when performing trait evolution analyses: an equal rate, a symmetric rate (transition from A to B is the same that B to A), and all rates differ, which is self-explanatory. 
 
-However, such models may not be adequate when testing specific evolutionary scenarios. For example, we may want to test whether the direct transition from small size to large size is impossible. To do so, we create a custom transition matrix by indicating that direct transitions between opposed states are impossible. In our case of Shark evolution, all these models will be referred to from now on as "sequential models", namely if one wants to go from A to C, there are two transitions, A to B, and B to C. Each model parameter specification was then entered in a standardised corHMM fashion. To properly model trait evolution, one should always keep in mind that evolutionary rates may vary across the phylogeny, thus it is best practice to introduce another parameter, the "rate" parameter. This parameter allows for transition rate  heterogeneity across the phylogeny, that is if one part of the phylogeny has short branching patterns as opposed to the rest of the tree, corHMM will take into account such heterogeneity, regardless of the trait state. Introducing such parameters is a great way to avoid false positives but is also very resource-consuming as these models are parameters rich (often more than twice the number of parameters for a one-rate model). To keep the likelihood space to allow and avoid over-parametrization, we did not go as far as 3 rates.
+However, such models may not be adequate when testing specific evolutionary scenarios. For example, we may want to test whether the direct transition from small size to large size is impossible. To do so, we create a custom transition matrix by indicating that direct transitions between opposed states are impossible. In our case of Shark evolution, all these models will be referred to from now on as "sequential models", namely if one wants to go from A to C, there are two transitions, A to B, and B to C. Each model parameter specification was then entered in a standardised corHMM fashion. To properly model trait evolution, one should always keep in mind that evolutionary rates may vary across the phylogeny, thus it is best practice to introduce another parameter, the "rate" (herein referred to as rate-class) parameter. This parameter allows for transition rate  heterogeneity across the phylogeny, that is if one part of the phylogeny has short branching patterns as opposed to the rest of the tree, corHMM will take into account such heterogeneity, regardless of the trait state. Introducing these parameters is a great way to avoid false positives but is also very resource-consuming as these models are parameters rich (often more than twice the number of parameters for a one-rate model). To keep the likelihood space to allow and avoid over-parametrization, we did not go as far as 3-rate classes.
 
 </p> 
 
@@ -61,7 +61,7 @@ Lastly, one may be interested in estimating the ancestral condition of his clade
 
 `used script (SecSSE_Size.r; SecSSE_Reproduction.r; SecSSE_Habitat.r; SecSSE_Diet.r; SecSSE_ASE.r; Plot_ASE.r)`
 
-<p align="justify"> Now that we pictured trait evolution dynamics, we may want to assess whether our examined traits are responsible for extant diversity patterns or not. To do so we rely on SSE models (State-dependent speciation and extinction models), which are well-known for accounting for the impact that trait evolution has on patterns of lineage diversification. However, accounting for trait-dependent diversification is subject to numerous methodological biases (Beaulieu and Donoghue, 2013). Indeed, SSE models can falsely indicate an effect of the focal trait on diversification. Models with hidden traits (aka concealed traits), such as SeCSSE (Herrera-Alsina et al., 2019) or HiSSE (Beaulieu and O'Meara, 2016) can account for hidden variables in trait-dependant diversification. Thus, we will be using SecSSE, an SSE implementation for detecting trait-dependent diversification using phylogenies on multi-state characters, while being robust to false-postive. </p>
+<p align="justify"> Now that we pictured trait evolution dynamics, we may want to assess whether our examined traits are responsible for extant diversity patterns. To do so we rely on SSE models (State-dependent speciation and extinction models), which are well-known for accounting for the impact that trait evolution has on patterns of lineage diversification. However, accounting for trait-dependent diversification is subject to numerous methodological biases (Beaulieu and Donoghue, 2013). Indeed, SSE models can falsely indicate an effect of the focal trait on diversification. Models with hidden traits (aka concealed traits), such as SeCSSE (Herrera-Alsina et al., 2019) or HiSSE (Beaulieu and O'Meara, 2016) can account for hidden variables in trait-dependant diversification. Thus, we will be using SecSSE, an SSE implementation for detecting trait-dependent diversification using phylogenies on multi-state characters, while being robust to false-postive. </p>
 
 ### 2.1 Data cleaning and model construction
 
@@ -85,16 +85,24 @@ For each trait, we constructed seven models, one for constant rates (CR), three 
 
 `used script (corHMM.r; corHMM_Diet.r; SecSSE_Size.r; SecSSE_Reproduction.r; SecSSE_Habitat.r; SecSSE_Diet.r; Posterior_test_comparative_analysis.r)`
 
-<p align="justify"> Both trait-dependent evolution and diversification model require phylogeny. However, phylogenetic trees are hypotheses. We accounted for both phylogenetic and dating uncertainty by performing sensitivity analyses on the first 100 trees extracted from the posterior distribution of the BEAST analysis. We analyzed whether we could reliably recover the best-fitting model for each trait and analysis (corHMM, SecSSE) by performing a non-parametric alternative of the repeated measure ANOVA (Friedman test) comparing the AICc of each model and then performing pairwise comparisons of each model with a paired signed-rank Wilcoxon test using the R package “rstatix” (Kassambara, 2023) where we reported the T statistic and p-value. These tests are implemented in the script "Posterior_test_comparative_analysis.r", which will require a directory with all dataframe replicates (either corHMM or SecSSE) as input.</p>
+<p align="justify"> Both trait-dependent evolution and diversification model require phylogeny. However, phylogenetic trees are hypotheses. We accounted for both phylogenetic and dating uncertainty by performing sensitivity analyses on 100 trees extracted from the posterior distribution of the BEAST analysis. We analyzed whether we could reliably recover the best-fitting model for each trait and analysis (corHMM, SecSSE) by performing a non-parametric alternative of the repeated measure ANOVA (Friedman test) comparing the AICc of each model and then performing pairwise comparisons of each model with a paired signed-rank Wilcoxon test using the R package “rstatix” (Kassambara, 2023) where we reported the T statistic and p-value. These tests are implemented in the script "Posterior_test_comparative_analysis.r", which will require a directory with all dataframe replicates (either corHMM or SecSSE) as input.</p>
 
 
 ### Reference
 
 Beaulieu, J. M. Donoghue, M. J. (2013). Fruit evolution and diversification in campanulid angiosperms: Campanulid fruit evolution. Evolution. 67(11): 3132-3144.
 
+Beaulieu, J. M., & O’Meara, B. C. (2016). Detecting Hidden Diversification Shifts in Models of Trait-Dependent Speciation and Extinction. Systematic Biology, 65(4), 583-601. 
+
+Boyko, J. D., & Beaulieu, J. M. (2021). Generalized hidden Markov models for phylogenetic comparative datasets. Methods in Ecology and Evolution, 12(3), 468-478. 
+
+Etienne, R. S., Haegeman, B., Stadler, T., Aze, T., Pearson, P. N., Purvis, A., & Phillimore, A. B. (2012). Diversity-dependence brings molecular phylogenies closer to agreement with the fossil record. Proceedings of the Royal Society B: Biological Sciences, 279(1732), 1300-1309. 
+
 Herrera-Alsina, L. van Els, P. Etienne, R. S. (2019). Detecting the dependence of diversification on multiple traits from phylogenetic trees and trait data. Systematic Biology. 68(2): 317-328.
 
-Maddison, W.P., Midford, P.E. & Otto, S.P. (2007) Estimating a binary character's effect on speciation and extinction. Systematic Biology, 56, 701–710
+Fraley, C. Raftery, A. E. Murphy, T. B. & Scrucca, L. (2012). mclust Version 4 for R: normal mixture modelling for model-based clustering, classification, and density estimation. Technical Report No. 597. Seattle, WA: Department of Statistics, University of Washington.
+
+Maddison, W. P. (2006). Confounding asymmetries in evolutionary diversification and character change. Evolution, 60(8), 1743-1746.
 
 R Core Team (2022). R: A language and environment for statistical
 computing. R Foundation for Statistical Computing, Vienna, Austria.
