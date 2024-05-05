@@ -36,7 +36,7 @@
 
 `used script (corHMM.r; corHMM_Diet.r; Plot_ASE.r)`
 
-<p align="justify">  The purpose of this analysis is twofold. First, we want to test how traits evolved and what evolutionary scenario they followed. Second, we performed ancestral state estimation which can be later compared with the ancestral state estimation from SecSSE. In this section, we will be using the corHMM package version 2.8 (Boyko & Beaulieu, 2021)</p>
+<p align="justify">  The purpose of this analysis is twofold. First, we want to test how traits evolved and what evolutionary scenario they followed. Second, we performed ancestral state estimation which can be later compared with the ancestral state estimation from SecSSE. In this section, we will be using the corHMM package (Boyko & Beaulieu, 2021).</p>
 
 ### 1.1 Data cleaning and model construction
 
