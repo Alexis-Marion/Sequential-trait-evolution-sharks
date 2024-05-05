@@ -15,7 +15,8 @@
 - [3 Sensitivity analyses](#3-Sensitivity-analyses)
 - [Reference](#Reference)
 
-<p align="justify"> This repository's purpose is to give a means of replicability to the article "Sequential trait evolution did not drive deep-time diversification in sharks" but can be generalized to other similar data. All of the presented scripts are written in R language (R Core Team, 2022). If you plan to use any of these scripts, please cite "Marion et al., 2024". </p>
+<p align="justify"> This repository's purpose is to give a means of replicability to the article "Sequential trait evolution did not drive deep-time diversification in sharks" but can be generalized to other similar data. All of the presented scripts are written in R language (R Core Team, 2022). Each script is available as both an annotated notebook (.ipynb) or a raw .r file (unannotated).
+	If you plan to use any of these scripts, please cite "Marion et al., 2024". </p>
 
 ## Overview
 
