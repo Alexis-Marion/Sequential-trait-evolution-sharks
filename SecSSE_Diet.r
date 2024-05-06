@@ -1,12 +1,10 @@
 # Loading packages
-library("mclust")
 library("Rtsne")
 library("ape")
 library("secsse")
 library("DDD")
 library("doMC")
 library("tidyverse")
-library("parallel")
 library("qgraph")
 library("stringr")
 

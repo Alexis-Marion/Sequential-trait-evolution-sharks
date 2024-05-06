@@ -1,15 +1,19 @@
 library("corHMM")
 library("mclust")
 library("stringr")
+library("phytools")
 library("qpcR")
-
-args<-commandArgs(trailingOnly = TRUE)
+library("secsse")
 
 # Loading data
 
+args<-commandArgs(trailingOnly = TRUE)
+
 df<-read.csv("Species_data.tsv", sep="\t") # omit sep ="\t" for .csv files
 
-phy<-read.nexus("16FC_16C_374_sp.tree")
+phy<-read.nexus(args[1])
+
+phy<-phy[[as.numeric(args[2])]]
 
 mb1 = Mclust(as.numeric(df$Body.size))
 summary(mb, parameters = TRUE)
@@ -163,8 +167,7 @@ rownames(df_size)<-c("bds_1_eq", "bds_1_sym", "bds_1_ard", "bds_1_tran_s_l", "bd
                           "bds_3_eq", "bds_3_sym", "bds_3_ard", "bds_3_tran_s_l", "bds_3_tran_s_l_sym", "bds_3_tran_s_l_eq")
 colnames(df_size)<-c("loglik", "AICc", "Delta_AICc", "AICcWt", "K_rates")
 
-write.table(df_size, "ASE/df_size.tsv", sep ="\t")
-saveRDS(eval(parse(text = rownames(df_size)[which.min(df_size$AICc)])), "ASE/bds_corHMM.rds")
+write.table(df_size, paste("Results/", "df_size", args[2], ".tsv", sep =""), sep ="\t")
 
 states_reproduction<-states_traits[,c(1,3)]
 LegendAndRateMat <- getStateMat4Dat(states_reproduction)
@@ -302,8 +305,7 @@ rownames(df_reproduction)<-c("rp_1_eq", "rp_1_sym", "rp_1_ard", "rp_1_trans_o", 
                           "rp_3_eq", "rp_3_sym", "rp_3_ard", "rp_3_trans_o", "rp_3_trans_o_sym", "rp_3_trans_o_eq")
 colnames(df_reproduction)<-c("logLik","AICc", "Delta_AICc", "AICcWt", "K_rates")
 
-write.table(df_reproduction, "ASE/df_reproduction.tsv", sep ="\t")
-saveRDS(eval(parse(text = rownames(df_reproduction)[which.min(df_reproduction$AICc)])), "ASE/rp_corHMM.rds")
+write.table(df_size, paste("Results/", "df_reproduction", args[2], ".tsv", sep =""), sep ="\t")
 
 states_habitat<-states_traits[,c(1,4)]
 LegendAndRateMat <- getStateMat4Dat(states_habitat)
@@ -441,5 +443,4 @@ rownames(df_habitat)<-c("ht_1_eq", "ht_1_sym", "ht_1_ard", "ht_1_d", "ht_1_d_sym
                           "ht_3_eq", "ht_3_sym", "ht_3_ard", "ht_3_d", "ht_3_d_sym", "ht_3_d_eq")
 colnames(df_habitat)<-c("logLik","AICc", "Delta_AICc", "AICcWt", "K_rates")
 
-write.table(df_habitat, "ASE/df_habitat.tsv", sep ="\t")
-saveRDS(eval(parse(text = rownames(df_habitat)[which.min(df_habitat$AICc)])), "ASE/ht_corHMM.rds")
+write.table(df_size, paste("Results/", "df_habitat", args[2], ".tsv", sep =""), sep ="\t")

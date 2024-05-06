@@ -11,7 +11,7 @@ Model<-c()
 AICc<-c()
 Replicate<-c()
 for( i in list_files){
-        iteration<-gsub(paste(args[1], "/df_", as.character(args[2]), sep =""),'', i)
+        iteration<-gsub(paste(args[1], "/df_", as.character(args), sep =""),'', i)
         iteration<-gsub('.tsv', '',  iteration)
         file<-read.csv(i, sep ="\t")
         for (j in 1:nrow(file)){
